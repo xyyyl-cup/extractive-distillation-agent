@@ -1,0 +1,9 @@
+; System Top
+#include "combined_atomtypes.itp"
+#include "clean_GBL.itp"
+#include "clean_JC.itp"
+[ system ]
+Extraction_System
+[ molecules ]
+GBL      300
+JC       10

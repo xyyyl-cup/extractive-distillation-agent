@@ -1,0 +1,24 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Python and editors
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+# Runtime output and large simulation artifacts
+generated/
+*.xtc
+*.trr
+*.edr
+*.chk
+*.fchk
+*.cpt
+*.tpr
+~$*
+Thumbs.db

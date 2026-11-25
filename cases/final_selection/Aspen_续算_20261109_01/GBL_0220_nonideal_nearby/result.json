@@ -1,0 +1,19 @@
+{
+  "id": "GBL_0220_nonideal_nearby",
+  "case": {
+    "N1": 114.0,
+    "N2": 34.0,
+    "NF1": 53.0,
+    "NS1": 39.0,
+    "NF2": 15.0,
+    "RR1": 5.1639,
+    "RR2": 4.5916,
+    "D1": 5.050768,
+    "D2": 4.99,
+    "SF": 3.4521
+  },
+  "warm_start": false,
+  "status": "execution_error",
+  "solver_settings": {},
+  "exception": "com_error(-2147352567, '发生意外。', (14, 'VASetValue（详见errcode）', '值超出范围；必须介于1 和 200', None, 0, 0), None)"
+}

@@ -1,0 +1,14 @@
+%nprocshared=8
+%mem=8GB
+%chk=D:\GROMACS\JC\JC.chk
+#p b3lyp/6-311g(d,p) opt freq nosymm empiricaldispersion=gd3bj pop=hirshfeld
+
+JC (Methanol) Optimization and Freq calculation for Sobtop
+
+0 1
+ C                 -0.04667300     0.66029200     0.00000000
+ O                 -0.04667300    -0.75781600     0.00000000
+ H                 -1.09246100     0.97811200     0.00000000
+ H                  0.43661400     1.08726400     0.89182300
+ H                  0.43661400     1.08726400    -0.89182300
+ H                  0.87264900    -1.05186600     0.00000000

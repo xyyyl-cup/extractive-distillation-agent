@@ -1,0 +1,3 @@
+source view_nci.vmd
+puts "REPS [molinfo top get numreps] VOL [molinfo top get numvolumedata]"
+quit

@@ -1,0 +1,6 @@
+﻿单元,节点,历史优化档案原值,单次复算原值,Aspen原始单位,BLKSTAT,复算状态,COM路径
+B1,COND_DUTY,-26301.9103,-26301.9103,cal/sec,0,各单元完成，输入转换有警告,\Data\Blocks\B1\Output\COND_DUTY
+B1,REB_DUTY,43149.8423,43149.8423,cal/sec,0,各单元完成，输入转换有警告,\Data\Blocks\B1\Output\REB_DUTY
+B2,COND_DUTY,-1032.74333,-1032.74333,cal/sec,0,各单元完成，输入转换有警告,\Data\Blocks\B2\Output\COND_DUTY
+B2,REB_DUTY,10898.6926,10898.6926,cal/sec,0,各单元完成，输入转换有警告,\Data\Blocks\B2\Output\REB_DUTY
+B4,QCALC,2408.69182,2408.69182,cal/sec,0,各单元完成，输入转换有警告,\Data\Blocks\B4\Output\QCALC

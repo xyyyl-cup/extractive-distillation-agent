@@ -1,0 +1,4 @@
+﻿role,code,name,asset_status,asset_code,source_dir,gro,itp,top,primary_validation_required,next_action
+candidate_solvent,PC,Propylene carbonate,topology_asset_ready,PC,D:\GROMACS\1,D:\GROMACS\1\PC.gro,D:\GROMACS\1\PC.itp,D:\GROMACS\1\PC.top,yes,reuse_topology_asset
+feed_component,C3F8,C3F8,topology_asset_ready,C3F8,D:\GROMACS\1,D:\GROMACS\1\C3F8.gro,D:\GROMACS\1\C3F8.itp,D:\GROMACS\1\C3F8.top,yes,reuse_topology_asset
+feed_component,C3F6,C3F6,topology_asset_ready,C3F6,D:\GROMACS\1,D:\GROMACS\1\C3F6.gro,D:\GROMACS\1\C3F6.itp,D:\GROMACS\1\C3F6.top,yes,reuse_topology_asset

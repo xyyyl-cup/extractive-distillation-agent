@@ -1,0 +1,9 @@
+; System Top
+#include "combined_atomtypes.itp"
+#include "clean_EC.itp"
+#include "clean_ETHANOL.itp"
+[ system ]
+Extraction_System
+[ molecules ]
+EC      300
+ETHANOL       10

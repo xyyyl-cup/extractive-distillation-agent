@@ -1,0 +1,97 @@
+{
+  "id": "PC_2989_path_SF_0p275",
+  "case": {
+    "N1": 110.0,
+    "N2": 28.0,
+    "NF1": 66.0,
+    "NS1": 22.0,
+    "NF2": 6.0,
+    "RR1": 8.0,
+    "RR2": 0.7925,
+    "D1": 8.994827,
+    "D2": 1.8315,
+    "SF": 0.275
+  },
+  "warm_start": true,
+  "status": "verified",
+  "solver_settings": {},
+  "UOSSTAT": 0,
+  "recycle_status": "OK",
+  "blocks": {
+    "B1": 0,
+    "B2": 0,
+    "B3": 0,
+    "B4": 0
+  },
+  "block_messages": {
+    "B1": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    },
+    "B2": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    },
+    "B3": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    },
+    "B4": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    }
+  },
+  "component_residuals_kmol_h": {
+    "B1": {
+      "C3F8": 7.900009535433128e-10,
+      "C3F6": -2.1440005326667233e-10,
+      "PC": 0.0
+    },
+    "B2": {
+      "C3F8": 0.0,
+      "C3F6": 0.0,
+      "PC": 0.0
+    },
+    "B3": {
+      "C3F8": -1.8992356749999998e-68,
+      "C3F6": -2.057983921e-59,
+      "PC": 0.0
+    },
+    "B4": {
+      "C3F8": 0.0,
+      "C3F6": 0.0,
+      "PC": 0.0
+    },
+    "external": {
+      "C3F8": 7.900003221039675e-10,
+      "C3F6": -2.1439994224436987e-10,
+      "PC": 0.0
+    }
+  },
+  "mass_residual_kg_h": 1.2000001277101546e-06,
+  "purity": 0.999991864,
+  "recovery": 0.9994170911111111,
+  "makeup_kmol_h": 0.826327,
+  "duties_cal_s": {
+    "B1": {
+      "COND_DUTY": -95534.1702,
+      "REB_DUTY": 99409.3281
+    },
+    "B2": {
+      "COND_DUTY": -5761.8673,
+      "REB_DUTY": 22688.9702
+    }
+  },
+  "closure": true,
+  "unit_states_pass": true,
+  "operating_signs_pass": true,
+  "product_constraints_pass": true
+}

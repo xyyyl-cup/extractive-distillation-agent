@@ -1,0 +1,22 @@
+﻿指标,数值,单位或基准,说明
+case_id,GENERIC_ASPEN_OPT_3214,未查到,历史档案
+selection,原优化工作簿 TOPSIS 第 1（0.98006541），对应原稿指标,未查到,历史档案
+historical_TAC,152377.9106218745,USD/a,原档案指标，未重算经济性
+historical_steam_CO2,365.3683726524986,t/a,原档案指标，未重算
+historical_recovery,0.9998961000000001,fraction,原档案，产品目标组分摩尔流量/原料目标组分摩尔流量
+replayed_recovery,0.9998961000000001,fraction,各单元完成，输入转换有警告
+product_stream,D,未查到,优化目标产品物流
+purity_constraint,0.999,mole_fraction,实际使用的纯度约束
+historical_mole_fraction,0.999777238,mol/mol,原档案结果
+replayed_mole_fraction,0.999777238,mol/mol,各单元完成，输入转换有警告
+replayed_mass_fraction,0.999912877,kg/kg,各单元完成，输入转换有警告
+two_column_stages,66,级,含两塔各自冷凝器和再沸器
+feed_total,10.0,kmol/h,"原料 F；组分 {""ETHANOL"": 9.0, ""WATER"": 1.0}"
+C1_fresh_total,0.061998,kmol/h,各单元完成，输入转换有警告
+S3_recycle_total,6.460002,kmol/h,各单元完成，输入转换有警告
+S3_recycle_solvent_component,6.460002,kmol/h,各单元完成，输入转换有警告
+C2_mixed_total,6.522,kmol/h,各单元完成，输入转换有警告
+C2_solvent_component,6.522,kmol/h,各单元完成，输入转换有警告
+S_over_F,0.6522,kmol/kmol,C2 溶剂组分摩尔流量 / 原料 F 总摩尔流量
+nominal_makeup_field,0.2,kmol/h,历史名义字段，实际 C1 取 Aspen 结果
+historical_solvent_loss_top_products,0.061998,kmol/h,历史塔顶溶剂损失总和，与 C1 概念分开

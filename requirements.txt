@@ -1,0 +1,10 @@
+# Initial dependency list from the supplied source; not a historical lockfile.
+numpy
+pandas
+openpyxl
+matplotlib
+Pillow
+requests
+certifi
+pypdf
+pywin32; sys_platform == "win32"

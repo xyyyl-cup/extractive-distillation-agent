@@ -1,0 +1,142 @@
+{
+  "id": "GBL_0749_shift_outlet",
+  "case": {
+    "N1": 132.0,
+    "N2": 25.0,
+    "NF1": 35.0,
+    "NS1": 12.0,
+    "NF2": 2.0,
+    "RR1": 13.7961,
+    "RR2": 1.0651,
+    "D1": 5.056244,
+    "D2": 4.97,
+    "SF": 0.6835
+  },
+  "warm_start": false,
+  "status": "radfrac_error",
+  "solver_settings": {},
+  "initialization": "Engine.Reinit()",
+  "UOSSTAT": 1,
+  "recycle_status": "OK",
+  "blocks": {
+    "B1": 1,
+    "B2": 0,
+    "B3": 0,
+    "B4": 0
+  },
+  "block_messages": {
+    "B1": {
+      "Name": "PER_ERROR",
+      "Value": 1,
+      "UnitString": "",
+      "ValueType": 1,
+      "children": [
+        {
+          "Name": "1",
+          "Value": "** ERROR",
+          "UnitString": "",
+          "ValueType": 3
+        },
+        {
+          "Name": "2",
+          "Value": "   RADFRAC NOT CONVERGED IN 200 OUTSIDE LOOP ITERATIONS.",
+          "UnitString": "",
+          "ValueType": 3
+        },
+        {
+          "Name": "3",
+          "Value": "",
+          "UnitString": "",
+          "ValueType": 3
+        },
+        {
+          "Name": "4",
+          "Value": "** ERROR",
+          "UnitString": "",
+          "ValueType": 3
+        },
+        {
+          "Name": "5",
+          "Value": "   BLOCK B1 IS NOT IN MASS BALANCE:",
+          "UnitString": "",
+          "ValueType": 3
+        },
+        {
+          "Name": "6",
+          "Value": "   MASS INLET FLOW = 0.30810377E+00, MASS OUTLET FLOW = 0.30733784E+00",
+          "UnitString": "",
+          "ValueType": 3
+        },
+        {
+          "Name": "7",
+          "Value": "   RELATIVE DIFFERENCE = 0.24921297E-02",
+          "UnitString": "",
+          "ValueType": 3
+        }
+      ]
+    },
+    "B2": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    },
+    "B3": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    },
+    "B4": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    }
+  },
+  "component_residuals_kmol_h": {
+    "B1": {
+      "METHANOL": -0.15054514199999947,
+      "TETRAHYD": 0.3846938,
+      "GBL": -0.2341486599999998
+    },
+    "B2": {
+      "METHANOL": 0.0,
+      "TETRAHYD": 3.63359127e-39,
+      "GBL": 4.000000330961484e-09
+    },
+    "B3": {
+      "METHANOL": 1.34734658e-33,
+      "TETRAHYD": -1.60117226e-25,
+      "GBL": 0.0
+    },
+    "B4": {
+      "METHANOL": 0.0,
+      "TETRAHYD": 0.0,
+      "GBL": 0.0
+    },
+    "external": {
+      "METHANOL": -0.15054514199999947,
+      "TETRAHYD": 0.3846938,
+      "GBL": -0.234148656
+    }
+  },
+  "mass_residual_kg_h": 2.7573335100000236,
+  "purity": 0.0,
+  "recovery": 0.0,
+  "makeup_kmol_h": 0.026244,
+  "duties_cal_s": {
+    "B1": {
+      "COND_DUTY": -137675.822,
+      "REB_DUTY": 141187.315
+    },
+    "B2": {
+      "COND_DUTY": -19807.5311,
+      "REB_DUTY": 39015.7658
+    }
+  },
+  "closure": false,
+  "unit_states_pass": false,
+  "operating_signs_pass": true,
+  "product_constraints_pass": false
+}

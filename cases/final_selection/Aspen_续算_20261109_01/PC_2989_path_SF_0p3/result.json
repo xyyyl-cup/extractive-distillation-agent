@@ -1,0 +1,111 @@
+{
+  "id": "PC_2989_path_SF_0p3",
+  "case": {
+    "N1": 110.0,
+    "N2": 28.0,
+    "NF1": 66.0,
+    "NS1": 22.0,
+    "NF2": 6.0,
+    "RR1": 8.0,
+    "RR2": 0.7925,
+    "D1": 8.994827,
+    "D2": 1.8315,
+    "SF": 0.3
+  },
+  "warm_start": true,
+  "status": "radfrac_error",
+  "solver_settings": {},
+  "UOSSTAT": 1,
+  "recycle_status": "OK",
+  "blocks": {
+    "B1": 0,
+    "B2": 1,
+    "B3": 0,
+    "B4": 0
+  },
+  "block_messages": {
+    "B1": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    },
+    "B2": {
+      "Name": "PER_ERROR",
+      "Value": 1,
+      "UnitString": "",
+      "ValueType": 1,
+      "children": [
+        {
+          "Name": "1",
+          "Value": "** ERROR",
+          "UnitString": "",
+          "ValueType": 3
+        },
+        {
+          "Name": "2",
+          "Value": "   RADFRAC NOT CONVERGED IN 200 OUTSIDE LOOP ITERATIONS.",
+          "UnitString": "",
+          "ValueType": 3
+        }
+      ]
+    },
+    "B3": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    },
+    "B4": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    }
+  },
+  "component_residuals_kmol_h": {
+    "B1": {
+      "C3F8": -6.999911761340627e-11,
+      "C3F6": -6.970002353057225e-11,
+      "PC": 0.0
+    },
+    "B2": {
+      "C3F8": 0.0,
+      "C3F6": 0.0,
+      "PC": 0.0
+    },
+    "B3": {
+      "C3F8": 6.358040099999998e-70,
+      "C3F6": 6.829926099999999e-61,
+      "PC": 0.0
+    },
+    "B4": {
+      "C3F8": 0.0,
+      "C3F6": 0.0,
+      "PC": 0.0
+    },
+    "external": {
+      "C3F8": -6.999966752074815e-11,
+      "C3F6": -6.970002353057225e-11,
+      "PC": 0.0
+    }
+  },
+  "mass_residual_kg_h": 2.0000013023491192e-07,
+  "purity": 0.999992124,
+  "recovery": 0.9994173511111111,
+  "makeup_kmol_h": 0.826327,
+  "duties_cal_s": {
+    "B1": {
+      "COND_DUTY": -95534.1712,
+      "REB_DUTY": 98403.045
+    },
+    "B2": {
+      "COND_DUTY": -9191.29896,
+      "REB_DUTY": 21778.8689
+    }
+  },
+  "closure": true,
+  "unit_states_pass": false,
+  "operating_signs_pass": true,
+  "product_constraints_pass": true
+}

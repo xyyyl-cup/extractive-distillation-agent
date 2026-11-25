@@ -1,0 +1,27 @@
+﻿分子,候选,源路径,数据行,原子数,候选总电荷_e,基准总电荷_e,最大绝对差_e,结论
+C3F8,实际拓扑（基准）,D:\GROMACS\1\Run_PC_C3F8_Final\C3F8.itp,14–24,11,0E-8,0E-8,0E-8,完全一致
+C3F8,system.top 所包含的 clean ITP,D:\GROMACS\1\Run_PC_C3F8_Final\clean_C3F8.itp,7–17,11,0E-8,0E-8,0E-8,完全一致
+C3F8,GROMACS/1 投料拓扑,D:\GROMACS\1\C3F8.itp,14–24,11,0E-8,0E-8,0E-8,完全一致
+C3F8,生产 md.tpr（单精度转储显示）,D:\六体系MD计算设置核查\01_PC_C3F8\TPR只读转储\md_dump.txt,567–577,11,9E-7,0E-8,4.5E-7,单精度转储的显示舍入；每项按单精度及 6 位有效数字重现
+C3F8,FCH 内嵌 Mulliken,D:\GROMACS\C3F8\C3F8.fch,20303–20305,11,0E-9,0E-8,0.172025923,不一致，非舍入差异
+C3F8,Gaussian Mulliken（表头第 535 行）,D:\GROMACS\C3F8\C3F8.out,537–547,11,-0.000001,0E-8,0.17129814,不一致，非舍入差异
+C3F8,Gaussian Hirshfeld（表头第 603 行）,D:\GROMACS\C3F8\C3F8.out,605–615,11,-0.000001,0E-8,0.27833898,不一致，非舍入差异
+C3F8,Gaussian CM5（表头第 603 行）,D:\GROMACS\C3F8\C3F8.out,605–615,11,0.000000,0E-8,0.21765298,不一致，非舍入差异
+C3F8,Gaussian Mulliken（表头第 2887 行）,D:\GROMACS\C3F8\C3F8.out,2889–2899,11,0.000000,0E-8,0.17202614,不一致，非舍入差异
+C3F8,Gaussian Hirshfeld（表头第 2955 行）,D:\GROMACS\C3F8\C3F8.out,2957–2967,11,0.000002,0E-8,0.27839698,不一致，非舍入差异
+C3F8,Gaussian CM5（表头第 2955 行）,D:\GROMACS\C3F8\C3F8.out,2957–2967,11,-0.000002,0E-8,0.21780198,不一致，非舍入差异
+C3F8,Gaussian Mulliken（表头第 3401 行）,D:\GROMACS\C3F8\C3F8.out,3403–3413,11,0.000001,0E-8,0.17202614,不一致，非舍入差异
+C3F8,Gaussian APT（表头第 3428 行）,D:\GROMACS\C3F8\C3F8.out,3430–3440,11,0.000000,0E-8,1.02276986,不一致，非舍入差异
+C3F8,Gaussian Hirshfeld（表头第 3496 行）,D:\GROMACS\C3F8\C3F8.out,3498–3508,11,-0.000002,0E-8,0.27839798,不一致，非舍入差异
+C3F8,Gaussian CM5（表头第 3496 行）,D:\GROMACS\C3F8\C3F8.out,3498–3508,11,-0.000002,0E-8,0.21780198,不一致，非舍入差异
+C3F6,实际拓扑（基准）,D:\GROMACS\1\Run_PC_C3F6_Final\C3F6.itp,15–23,9,0E-8,0E-8,0E-8,完全一致
+C3F6,system.top 所包含的 clean ITP,D:\GROMACS\1\Run_PC_C3F6_Final\clean_C3F6.itp,7–15,9,0E-8,0E-8,0E-8,完全一致
+C3F6,GROMACS/1 投料拓扑,D:\GROMACS\1\C3F6.itp,15–23,9,0E-8,0E-8,0E-8,完全一致
+C3F6,生产 md.tpr（单精度转储显示）,D:\六体系MD计算设置核查\02_PC_C3F6\TPR只读转储\md_dump.txt,551–559,9,-4E-7,0E-8,4.2E-7,单精度转储的显示舍入；每项按单精度及 6 位有效数字重现
+C3F6,FCH 内嵌 Mulliken,D:\GROMACS\C3F6\1.fch,13456–13457,9,1E-10,0E-8,0.110757565,不一致，非舍入差异
+C3F6,历史 1.chg,D:\GROMACS\C3F6\1.chg,1–9,9,0E-10,0E-8,4.2E-9,仅 10 位小数转为 8 位小数的舍入差
+C3F6,历史 1.itp,D:\GROMACS\C3F6\1.itp,15–23,9,0E-8,0E-8,0E-8,完全一致
+C3F6,Gaussian Mulliken（表头第 572 行）,D:\GROMACS\C3F6\sobtop_2026.out,574–586,13,0.000000,0E-8,不适用,元素序列不同；不按行映射
+C3F6,Gaussian APT（表头第 594 行）,D:\GROMACS\C3F6\sobtop_2026.out,596–608,13,0.000001,0E-8,不适用,元素序列不同；不按行映射
+C3F6,实际 C3F6 Gaussian Mulliken（表头第 519 行）,D:\GROMACS\3JA\sobtop1_2026.out,521–529,9,-0.000001,0E-8,0.11075756,不一致，非舍入差异
+C3F6,实际 C3F6 Gaussian APT（表头第 542 行）,D:\GROMACS\3JA\sobtop1_2026.out,544–552,9,0.000000,0E-8,1.17155311,不一致，非舍入差异

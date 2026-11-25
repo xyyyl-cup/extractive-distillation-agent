@@ -1,0 +1,12 @@
+%chk=h2o_monomer_opt.chk
+%nprocshared=4
+%mem=4GB
+#p B3LYP/6-311G(d,p) EmpiricalDispersion=GD3BJ Opt SCF=Tight
+
+H2O monomer initial optimization
+
+0 1
+O                        0.000000       0.000000       0.000000
+H                        0.277400       0.892900       0.254400
+H                        0.606800      -0.238300      -0.716900
+

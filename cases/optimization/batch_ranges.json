@@ -1,0 +1,152 @@
+{
+  "PC": {
+    "source": "cases/optimization/历史优化/PC/原始档案/generic_aspen_once_optimizer.report.json",
+    "generated_at": "2026-07-06T13:13:01",
+    "algorithm": "NSGA-II hybrid",
+    "archival_parameter_ranges": {
+      "bounds_profile": "publication_safe",
+      "bounds": {
+        "SF": [
+          0.25,
+          3.5
+        ],
+        "RR1": [
+          0.5,
+          8.0
+        ],
+        "RR2": [
+          0.2,
+          5.0
+        ],
+        "D1": [
+          7.128,
+          9.2664
+        ],
+        "D2": [
+          0.6435,
+          1.8315
+        ],
+        "N1": [
+          20,
+          110
+        ],
+        "N2": [
+          4,
+          60
+        ],
+        "NF1_BOTTOM_MARGIN": 2,
+        "NF1_NS1_MIN_GAP": 3,
+        "DISTILLATE_BOUNDS_MODE": "split_factor",
+        "profile": "publication_safe"
+      },
+      "boundary_tolerance_fraction": 0.01
+    },
+    "target_product": "C3F8",
+    "target_product_stream": "D",
+    "archival_target_purity": 0.99999,
+    "archival_target_recovery": 0.99,
+    "archival_recovery_reference": 0.99,
+    "paper_min_recovery": 0.99,
+    "historical_topsis_best": "GENERIC_ASPEN_OPT_2388"
+  },
+  "EC": {
+    "source": "cases/optimization/历史优化/EC/原始档案/generic_aspen_once_optimizer.report.json",
+    "generated_at": "2026-07-02T00:10:19",
+    "algorithm": "NSGA-II hybrid",
+    "archival_parameter_ranges": {
+      "bounds_profile": "publication_safe",
+      "bounds": {
+        "SF": [
+          0.25,
+          3.5
+        ],
+        "RR1": [
+          0.5,
+          8.0
+        ],
+        "RR2": [
+          0.2,
+          5.0
+        ],
+        "D1": [
+          7.128,
+          9.2664
+        ],
+        "D2": [
+          0.6435,
+          1.8315
+        ],
+        "N1": [
+          20,
+          110
+        ],
+        "N2": [
+          4,
+          60
+        ],
+        "NF1_BOTTOM_MARGIN": 2,
+        "NF1_NS1_MIN_GAP": 3,
+        "DISTILLATE_BOUNDS_MODE": "split_factor",
+        "profile": "publication_safe"
+      },
+      "boundary_tolerance_fraction": 0.01
+    },
+    "target_product": "ETHANOL",
+    "target_product_stream": "D",
+    "archival_target_purity": 0.999,
+    "archival_target_recovery": null,
+    "archival_recovery_reference": 0.99,
+    "paper_min_recovery": 0.99,
+    "historical_topsis_best": "GENERIC_ASPEN_OPT_3214"
+  },
+  "GBL": {
+    "source": "cases/optimization/历史优化/GBL/原始档案/generic_aspen_once_optimizer.report.json",
+    "generated_at": "2026-07-20T12:33:04",
+    "algorithm": "NSGA-II hybrid",
+    "archival_parameter_ranges": {
+      "bounds_profile": "purity_feasibility",
+      "bounds": {
+        "SF": [
+          0.15,
+          4.5
+        ],
+        "RR1": [
+          0.2,
+          12.0
+        ],
+        "RR2": [
+          0.1,
+          8.0
+        ],
+        "D1": [
+          3.465,
+          5.247
+        ],
+        "D2": [
+          2.475,
+          9.95
+        ],
+        "N1": [
+          12,
+          130
+        ],
+        "N2": [
+          4,
+          70
+        ],
+        "NF1_BOTTOM_MARGIN": 1,
+        "NF1_NS1_MIN_GAP": 1,
+        "DISTILLATE_BOUNDS_MODE": "split_factor",
+        "profile": "purity_feasibility"
+      },
+      "boundary_tolerance_fraction": 0.01
+    },
+    "target_product": "TETRAHYDROFURAN",
+    "target_product_stream": "S1",
+    "archival_target_purity": 0.9995,
+    "archival_target_recovery": 0.99,
+    "archival_recovery_reference": 0.99,
+    "paper_min_recovery": 0.99,
+    "historical_topsis_best": "GENERIC_ASPEN_OPT_0993"
+  }
+}

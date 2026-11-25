@@ -1,0 +1,4 @@
+﻿role,code,name,asset_status,asset_code,source_dir,gro,itp,top,primary_validation_required,next_action
+candidate_solvent,GBL,gamma-Butyrolactone,topology_asset_ready,GBL,D:\GROMACS\1,D:\GROMACS\1\GBL.gro,D:\GROMACS\1\GBL.itp,D:\GROMACS\1\GBL.top,yes,reuse_topology_asset
+feed_component,METHANOL,METHANOL,topology_asset_ready,JC,D:\GROMACS\1,D:\GROMACS\1\JC.gro,D:\GROMACS\1\JC.itp,D:\GROMACS\1\JC.top,yes,reuse_topology_asset
+feed_component,TETRAHYDROFURAN,TETRAHYDROFURAN,topology_asset_ready,TETRAHYDROFURAN,D:\Desktop\论文区\毕业论文\萃取精馏筛选\aspen_ed_screening\generated\gromacs_asset_library\TETRAHYDROFURAN,D:\Desktop\论文区\毕业论文\萃取精馏筛选\aspen_ed_screening\generated\gromacs_asset_library\TETRAHYDROFURAN\TETRAHYDROFURAN.gro,D:\Desktop\论文区\毕业论文\萃取精馏筛选\aspen_ed_screening\generated\gromacs_asset_library\TETRAHYDROFURAN\TETRAHYDROFURAN.itp,D:\Desktop\论文区\毕业论文\萃取精馏筛选\aspen_ed_screening\generated\gromacs_asset_library\TETRAHYDROFURAN\TETRAHYDROFURAN.top,yes,reuse_topology_asset

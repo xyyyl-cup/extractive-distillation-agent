@@ -1,0 +1,128 @@
+{
+  "id": "PC_2891_warm_from_2989",
+  "case": {
+    "N1": 110.0,
+    "N2": 26.0,
+    "NF1": 64.0,
+    "NS1": 23.0,
+    "NF2": 6.0,
+    "RR1": 8.0,
+    "RR2": 0.932,
+    "D1": 8.997729,
+    "D2": 1.8315,
+    "SF": 0.4706
+  },
+  "warm_start": true,
+  "status": "radfrac_error",
+  "UOSSTAT": 1,
+  "recycle_status": "OK",
+  "blocks": {
+    "B1": 0,
+    "B2": 1,
+    "B3": 0,
+    "B4": 0
+  },
+  "block_messages": {
+    "B1": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    },
+    "B2": {
+      "Name": "PER_ERROR",
+      "Value": 1,
+      "UnitString": "",
+      "ValueType": 1,
+      "children": [
+        {
+          "Name": "1",
+          "Value": "***SEVERE ERROR",
+          "UnitString": "",
+          "ValueType": 3
+        },
+        {
+          "Name": "2",
+          "Value": "   THE FOLLOWING STAGES DRIED UP (VAPOR OR LIQUID FLOW APPROACHES 0):",
+          "UnitString": "",
+          "ValueType": 3
+        },
+        {
+          "Name": "3",
+          "Value": "     2",
+          "UnitString": "",
+          "ValueType": 3
+        },
+        {
+          "Name": "4",
+          "Value": "   A LIMIT OF  0.10000E-04 * SUM OF FEEDS WAS IMPOSED ON THE FLOW RATES",
+          "UnitString": "",
+          "ValueType": 3
+        },
+        {
+          "Name": "5",
+          "Value": "   OR A LIMIT OF  0.10000E-04 WAS IMPOSED ON THE STAGE V/L OR L/V RATIO.",
+          "UnitString": "",
+          "ValueType": 3
+        }
+      ]
+    },
+    "B3": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    },
+    "B4": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    }
+  },
+  "component_residuals_kmol_h": {
+    "B1": {
+      "C3F8": 3.7499994220979715e-09,
+      "C3F6": -2.5300006534223485e-10,
+      "PC": 0.0
+    },
+    "B2": {
+      "C3F8": 0.0,
+      "C3F6": 0.0,
+      "PC": 0.0
+    },
+    "B3": {
+      "C3F8": 2.281217064826e-59,
+      "C3F6": 8.18765368815e-51,
+      "PC": 0.0
+    },
+    "B4": {
+      "C3F8": 0.0,
+      "C3F6": 0.0,
+      "PC": 0.0
+    },
+    "external": {
+      "C3F8": 3.750000133334597e-09,
+      "C3F6": -2.529999543199324e-10,
+      "PC": 0.0
+    }
+  },
+  "mass_residual_kg_h": 2.9000000552059646e-06,
+  "purity": 0.99999142,
+  "recovery": 0.9997390888888888,
+  "makeup_kmol_h": 0.829229,
+  "duties_cal_s": {
+    "B1": {
+      "COND_DUTY": -95564.991,
+      "REB_DUTY": 91590.4833
+    },
+    "B2": {
+      "COND_DUTY": 53839.6431,
+      "REB_DUTY": 2.78238589
+    }
+  },
+  "closure": true,
+  "unit_states_pass": false,
+  "operating_signs_pass": false,
+  "product_constraints_pass": true
+}

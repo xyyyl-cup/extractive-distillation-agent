@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "system": "ETHANOL / H2O / EC",
+  "records": [
+    {
+      "record_id": "ethanol_water_aspen_nrtl_li_2016",
+      "pair": ["ETHANOL", "H2O"],
+      "data_type": "VLE",
+      "source": {
+        "type": "primary_article",
+        "doi": "10.1021/acs.iecr.6b01244",
+        "url": "https://doi.org/10.1021/acs.iecr.6b01244.s001",
+        "title": "Process Assessment of Heterogeneous Azeotropic Dividing-Wall Column for Ethanol Dehydration with Cyclohexane as an Entrainer: Design and Control (Supporting Information)"
+      },
+      "parameter": {
+        "model": "NRTL",
+        "form": "aspen_bpval_8",
+        "units": {
+          "a": "dimensionless",
+          "b": "K",
+          "alpha": "dimensionless"
+        },
+        "temperature_range_c": [25.0, 100.0],
+        "pressure_range_mpa": [0.1013, 0.1013],
+        "rows": [
+          {
+            "from": "ETHANOL",
+            "to": "H2O",
+            "values": [-0.8009, 246.18, 0.3, 0.0, 0.0, 0.0, 25.0, 100.0]
+          },
+          {
+            "from": "H2O",
+            "to": "ETHANOL",
+            "values": [3.4578, -586.081, 0.3, 0.0, 0.0, 0.0, 25.0, 100.0]
+          }
+        ]
+      },
+      "verification": {
+        "status": "verified_exact_parameter",
+        "note": "Aspen Plus NRTL parameters extracted from the article supporting information and checked against its reported azeotrope."
+      }
+    },
+    {
+      "record_id": "water_ec_nrtl_chernyak_2008",
+      "pair": ["H2O", "EC"],
+      "data_type": "VLE",
+      "source": {
+        "type": "primary_article",
+        "doi": "10.1021/je700689w",
+        "url": "https://trc.nist.gov/ThermoML/10.1021/je700689w.html",
+        "title": "Phase Equilibria in Binary Mixtures of Water with Cyclic Alkylene Carbonates"
+      },
+      "parameter": {
+        "model": "NRTL",
+        "form": "aspen_bpval_8",
+        "units": {
+          "a": "dimensionless",
+          "b": "K",
+          "alpha": "dimensionless"
+        },
+        "temperature_range_c": [39.76, 109.98],
+        "pressure_range_mpa": [0.00658, 0.09997],
+        "rows": [
+          {
+            "from": "H2O",
+            "to": "EC",
+            "values": [1.6017, 158.52, 0.47, 0.0, 0.0, 0.0, 39.76, 109.98]
+          },
+          {
+            "from": "EC",
+            "to": "H2O",
+            "values": [-4.0518, 1602.5, 0.47, 0.0, 0.0, 0.0, 39.76, 109.98]
+          }
+        ]
+      },
+      "verification": {
+        "status": "verified_exact_parameter",
+        "note": "The published NRTL correlation was independently reproduced against the 36 reported P-T-x points."
+      }
+    },
+    {
+      "record_id": "ethanol_in_ec_idac_zhang_2003",
+      "pair": ["ETHANOL", "EC"],
+      "data_type": "IDAC",
+      "source": {
+        "type": "nist_thermoml",
+        "doi": "10.1021/je0102107",
+        "url": "https://trc.nist.gov/ThermoML/10.1021/je0102107.html",
+        "record_id": "20.5000.trc.thermoml/10.1021/je0102107",
+        "title": "Infinite Dilution Activity Coefficients in Ethylene Glycol and Ethylene Carbonate"
+      },
+      "verification": {
+        "status": "raw_data_located",
+        "note": "One-direction infinite-dilution data constrain the model but do not uniquely identify a complete bidirectional finite-composition NRTL pair."
+      }
+    },
+    {
+      "record_id": "ethanol_ec_sle_iwahashi_2011",
+      "pair": ["ETHANOL", "EC"],
+      "data_type": "SLE",
+      "source": {
+        "type": "primary_article",
+        "doi": "10.1016/j.jct.2010.08.015",
+        "url": "https://doi.org/10.1016/j.jct.2010.08.015",
+        "title": "Phase behavior of binary mixtures composed of ethylene carbonate and various organic solvents"
+      },
+      "verification": {
+        "status": "raw_data_located",
+        "note": "Useful supporting phase-equilibrium evidence, but not an Aspen-ready NRTL parameter set or finite-composition VLE validation."
+      }
+    }
+  ]
+}

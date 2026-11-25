@@ -1,0 +1,16 @@
+﻿参数,值,单位,定义
+SF,0.6522,kmol/kmol,入塔总溶剂目标/原料总摩尔流量
+makeup_flow,0.2,kmol/h,优化记录名义字段，实际 C1 见物流表
+RR1,1.1233,mol/mol,B1 BASIS_RR
+D1,9.00107,kmol/h,B1 BASIS_D
+N1,53,级,B1 NSTAGE
+NF1,33,级,B1 原料 S2 进料级
+NS1,15,级,B1 溶剂 C2 进料级
+RR2,0.2317,mol/mol,B2 BASIS_RR
+D2,1.060928,kmol/h,B2 BASIS_D
+N2,13,级,B2 NSTAGE
+NF2,2,级,B2 W 进料级
+B4 pressure,1.0,bar,HEATER 出口压力规格
+B4 vapor fraction,0.0,mol/mol,HEATER 出口汽相分率规格
+C-1 formula,FLOW=6.522-MOLARCO,未查到,S3 溶剂组分流量为 MOLARCO，C1 补充溶剂组分为 FLOW
+property method,UNIFAC,未查到,逐案参数映射

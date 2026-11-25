@@ -1,0 +1,111 @@
+{
+  "id": "GBL_0220_seed",
+  "case": {
+    "N1": 114.0,
+    "N2": 34.0,
+    "NF1": 53.0,
+    "NS1": 39.0,
+    "NF2": 15.0,
+    "RR1": 5.1639,
+    "RR2": 4.5916,
+    "D1": 5.090768,
+    "D2": 4.95,
+    "SF": 3.4521
+  },
+  "warm_start": false,
+  "status": "radfrac_error",
+  "initialization": "Engine.Reinit()",
+  "UOSSTAT": 1,
+  "recycle_status": "OK",
+  "blocks": {
+    "B1": 1,
+    "B2": 0,
+    "B3": 0,
+    "B4": 0
+  },
+  "block_messages": {
+    "B1": {
+      "Name": "PER_ERROR",
+      "Value": 1,
+      "UnitString": "",
+      "ValueType": 1,
+      "children": [
+        {
+          "Name": "1",
+          "Value": "** ERROR",
+          "UnitString": "",
+          "ValueType": 3
+        },
+        {
+          "Name": "2",
+          "Value": "   RADFRAC NOT CONVERGED IN 200 OUTSIDE LOOP ITERATIONS.",
+          "UnitString": "",
+          "ValueType": 3
+        }
+      ]
+    },
+    "B2": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    },
+    "B3": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    },
+    "B4": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    }
+  },
+  "component_residuals_kmol_h": {
+    "B1": {
+      "METHANOL": 0.0,
+      "TETRAHYD": -3.000000248221113e-10,
+      "GBL": 0.0
+    },
+    "B2": {
+      "METHANOL": 9.36089012e-23,
+      "TETRAHYD": 0.0,
+      "GBL": -2.999982484652719e-10
+    },
+    "B3": {
+      "METHANOL": -1.27242895e-33,
+      "TETRAHYD": 2.6276935595800002e-18,
+      "GBL": 0.0
+    },
+    "B4": {
+      "METHANOL": 0.0,
+      "TETRAHYD": 0.0,
+      "GBL": 0.0
+    },
+    "external": {
+      "METHANOL": 0.0,
+      "TETRAHYD": -3.000000248221113e-10,
+      "GBL": -3.000000040054296e-10
+    }
+  },
+  "mass_residual_kg_h": 6.00000475969864e-08,
+  "purity": 0.990182541,
+  "recovery": 0.9818464,
+  "makeup_kmol_h": 0.040768,
+  "duties_cal_s": {
+    "B1": {
+      "COND_DUTY": -62997.5437,
+      "REB_DUTY": 61508.3891
+    },
+    "B2": {
+      "COND_DUTY": -76092.0913,
+      "REB_DUTY": 96905.0629
+    }
+  },
+  "closure": true,
+  "unit_states_pass": false,
+  "operating_signs_pass": true,
+  "product_constraints_pass": false
+}

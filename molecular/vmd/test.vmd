@@ -1,0 +1,11 @@
+display resize 2400 1800
+display projection Orthographic
+display depthcue off
+axes location Off
+color Display Background white
+mol new test.xyz type xyz waitfor all
+mol modstyle 0 top CPK 0.8 0.25 24 24
+mol modcolor 0 top Element
+puts "VMD_SIZE [display get size]"
+render TachyonInternal test.tga
+quit

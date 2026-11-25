@@ -1,0 +1,7 @@
+﻿system,case,actual_species,group,D_value,error_reported,unit,fit_lag_begin_ps,fit_lag_end_ps,trajectory_begin_ps,trajectory_end_ps,method,status,raw_record
+PC—C3F8,01_PC_C3F8,C3F8,MySolute,0.1346,0.0092,1e-5 cm^2/s,100,900,1000,2000,mass-weighted atomic MSD; not molecular COM,historical_fit_not_refitted,# D[  MySolute] = 0.1346 (+/- 0.0092) (1e-5 cm^2/s)
+PC—C3F6,02_PC_C3F6,C3F6,MySolute,0.1559,0.0947,1e-5 cm^2/s,100,900,1000,2000,mass-weighted atomic MSD; not molecular COM,historical_fit_not_refitted,# D[  MySolute] = 0.1559 (+/- 0.0947) (1e-5 cm^2/s)
+EC—乙醇,03_EC_ETHANOL,ETHANOL,MySolute,0.4771,0.0969,1e-5 cm^2/s,100,900,1000,2000,mass-weighted atomic MSD; not molecular COM,historical_fit_not_refitted,# D[  MySolute] = 0.4771 (+/- 0.0969) (1e-5 cm^2/s)
+EC—水,04_EC_H2O,EC,MySolute,0.3571,0.0787,1e-5 cm^2/s,100,900,1000,2000,mass-weighted atomic MSD; not molecular COM,NOT_WATER_DIFFUSION,# D[  MySolute] = 0.3571 (+/- 0.0787) (1e-5 cm^2/s)
+GBL—甲醇,05_GBL_METHANOL,JC,MySolute,0.4689,0.2169,1e-5 cm^2/s,100,900,1000,2000,mass-weighted atomic MSD; not molecular COM,historical_fit_not_refitted,# D[  MySolute] = 0.4689 (+/- 0.2169) (1e-5 cm^2/s)
+GBL—THF,06_GBL_THF,TETRAHYDROFURAN,MySolute,0.4657,0.0375,1e-5 cm^2/s,100,900,1000,2000,mass-weighted atomic MSD; not molecular COM,historical_fit_not_refitted,# D[  MySolute] = 0.4657 (+/- 0.0375) (1e-5 cm^2/s)

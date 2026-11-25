@@ -1,0 +1,9 @@
+﻿物流,起点单元,起点出口,终点单元,终点入口,角色,核对依据
+F,流程边界,外部供料,B4,物料入口,原料,恢复工程 FLOWSHEET + RadFrac FEED_STAGE/PROD_STAGE/PROD_PHASE
+S2,B4,物料出口,B1,进料第33级,预调相原料,恢复工程 FLOWSHEET + RadFrac FEED_STAGE/PROD_STAGE/PROD_PHASE
+C1,流程边界,外部供料,B3,物料入口,新鲜溶剂补充,恢复工程 FLOWSHEET + RadFrac FEED_STAGE/PROD_STAGE/PROD_PHASE
+C2,B3,物料出口,B1,进料第15级,混合后入塔溶剂,恢复工程 FLOWSHEET + RadFrac FEED_STAGE/PROD_STAGE/PROD_PHASE
+W,B1,塔底 第53级 L,B2,进料第2级,B1 塔底至 B2,恢复工程 FLOWSHEET + RadFrac FEED_STAGE/PROD_STAGE/PROD_PHASE
+S3,B2,塔底 第13级 L,B3,物料入口,B2 塔底循环,恢复工程 FLOWSHEET + RadFrac FEED_STAGE/PROD_STAGE/PROD_PHASE
+D,B1,塔顶 第1级 V,流程边界,外送,B1 塔顶 / 目标产品,恢复工程 FLOWSHEET + RadFrac FEED_STAGE/PROD_STAGE/PROD_PHASE
+S1,B2,塔顶 第1级 V,流程边界,外送,B2 塔顶 / 另一塔顶采出,恢复工程 FLOWSHEET + RadFrac FEED_STAGE/PROD_STAGE/PROD_PHASE

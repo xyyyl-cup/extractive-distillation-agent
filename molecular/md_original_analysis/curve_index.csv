@@ -1,0 +1,11 @@
+﻿system,case,kind,actual_reference,actual_selection,csv,original_xvg,points,x_unit,y_unit,x_min,x_max,trajectory_begin_ps,trajectory_end_ps,warning
+PC—C3F8,01_PC_C3F8,MSD,C3F8,,01_PC_C3F8\origin_csv\msd_C3F8.csv,01_PC_C3F8\original\msd_C3F8.xvg,201,ps (lag time),nm2,0,1000,1000,2000,
+PC—C3F6,02_PC_C3F6,MSD,C3F6,,02_PC_C3F6\origin_csv\msd_C3F6.csv,02_PC_C3F6\original\msd_C3F6.xvg,201,ps (lag time),nm2,0,1000,1000,2000,
+EC—乙醇,03_EC_ETHANOL,MSD,ETHANOL,,03_EC_ETHANOL\origin_csv\msd_ETHANOL.csv,03_EC_ETHANOL\original\msd_ETHANOL.xvg,201,ps (lag time),nm2,0,1000,1000,2000,
+EC—乙醇,03_EC_ETHANOL,RDF,ETHANOL,EC,03_EC_ETHANOL\origin_csv\rdf_ETHANOL_EC.csv,03_EC_ETHANOL\original\rdf_ETHANOL_EC.xvg,1200,nm,dimensionless,0.000,2.398,0,2000,
+EC—水,04_EC_H2O,MSD,EC,,04_EC_H2O\origin_csv\msd_H2O__ACTUAL_EC_NOT_WATER.csv,04_EC_H2O\original\msd_H2O.xvg,201,ps (lag time),nm2,0,1000,1000,2000,水的MSD缺失；原msd_H2O实际分析EC；RDF参考/选择组反向
+EC—水,04_EC_H2O,RDF,EC,H2O,04_EC_H2O\origin_csv\rdf_H2O_EC__ACTUAL_EC_to_H2O.csv,04_EC_H2O\original\rdf_H2O_EC.xvg,1209,nm,dimensionless,0.000,2.416,0,2000,水的MSD缺失；原msd_H2O实际分析EC；RDF参考/选择组反向
+GBL—甲醇,05_GBL_METHANOL,MSD,JC,,05_GBL_METHANOL\origin_csv\msd_JC.csv,05_GBL_METHANOL\original\msd_JC.xvg,201,ps (lag time),nm2,0,1000,1000,2000,
+GBL—甲醇,05_GBL_METHANOL,RDF,JC,GBL,05_GBL_METHANOL\origin_csv\rdf_JC_GBL.csv,05_GBL_METHANOL\original\rdf_JC_GBL.xvg,1230,nm,dimensionless,0.000,2.458,0,2000,
+GBL—THF,06_GBL_THF,MSD,TETRAHYDROFURAN,,06_GBL_THF\origin_csv\msd_TETRAHYDROFURAN.csv,06_GBL_THF\original\msd_TETRAHYDROFURAN.xvg,201,ps (lag time),nm2,0,1000,1000,2000,
+GBL—THF,06_GBL_THF,RDF,TETRAHYDROFURAN,GBL,06_GBL_THF\origin_csv\rdf_TETRAHYDROFURAN_GBL.csv,06_GBL_THF\original\rdf_TETRAHYDROFURAN_GBL.xvg,1229,nm,dimensionless,0.000,2.456,0,2000,

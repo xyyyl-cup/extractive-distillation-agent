@@ -1,0 +1,42 @@
+﻿原始完整路径,包内相对路径,SHA256,字节数
+D:\GROMACS\1\Run_PC_C3F8_Final\C3F8.itp,证据副本/C3F8/实际生产/C3F8.itp,dc3bebd5cea1e2153f7cffb42e5a99424db052caf2ffcbfbd8236c7b31666029,6643
+D:\GROMACS\1\Run_PC_C3F8_Final\clean_C3F8.itp,证据副本/C3F8/实际生产/clean_C3F8.itp,f3fba285489c9b171b8442c0772645f46ff51ca54a769214a7a2461e7a6a33e0,6294
+D:\GROMACS\1\Run_PC_C3F8_Final\system.top,证据副本/C3F8/实际生产/system.top,bc0da7b759e65c0ffa5cd408ffbde112715bb2118b84e1475ed68edd55564fdd,175
+D:\GROMACS\1\Run_PC_C3F8_Final\md.tpr,证据副本/C3F8/实际生产/md.tpr,4dcd90a0017385e215ce64e3f07dca60638bfea4fb44786e1f4b8ea91ef7c764,106152
+D:\GROMACS\1\C3F8.itp,证据副本/C3F8/早期投料拓扑/C3F8.itp,dc3bebd5cea1e2153f7cffb42e5a99424db052caf2ffcbfbd8236c7b31666029,6643
+D:\GROMACS\1\C3F8.gro,证据副本/C3F8/早期投料拓扑/C3F8.gro,73ca5f171826c1e52d9177421ce13fc054b56ffb417603e997370984beb35fd9,612
+D:\GAUSS\new try\Screening_Dashboard\actions\smart_auto_PC_C3F8.bat,证据副本/C3F8/项目运行脚本与记录/smart_auto_PC_C3F8.bat,2509f33d5123cc1bc6db9df3c7d3b782bbac5c810bec85ff01a61954e1fb6c9d,10234
+D:\GAUSS\new try\Screening_Dashboard\actions\screening_action_gromacs_c3f8_PC.log,证据副本/C3F8/项目运行脚本与记录/screening_action_gromacs_c3f8_PC.log,52ccd8b3d3e952fa107119fbc394659680fb342a2bc7210551024b8b05bcddcd,1107487
+D:\六体系MD计算设置核查\01_PC_C3F8\TPR只读转储\md_dump.txt,证据副本/C3F8/实际生产/md_dump.txt,2c00be128d85e35c20043487f4e0bfa94fdcc34372a0e495ef048178511249c8,490149
+D:\GROMACS\C3F8\C3F8.chk,证据副本/C3F8/历史参数化与量化/C3F8.chk,2bcd2af52d8dc4a86a9d677a97007090841412d873e4668cfeab4c0788ab4b19,4022272
+D:\GROMACS\C3F8\C3F8.fch,证据副本/C3F8/历史参数化与量化/C3F8.fch,3fdff66dd57f10f5973733aad89173406e705d6d42b58cc2a71735c18996540d,1770975
+D:\GROMACS\C3F8\C3F8.mol2,证据副本/C3F8/历史参数化与量化/C3F8.mol2,6dcb9da550043e17aba7bda4ce1091a9c30a8f7a2c9b5a291778bca2e8470491,739
+D:\GROMACS\C3F8\C3F8.out,证据副本/C3F8/历史参数化与量化/C3F8.out,fb22cca5c2b9b64b7bfdc6f5f49d979ada1c2212e7a8666123fe04bcb91b9f9b,269926
+D:\GROMACS\C3F8\C8.gjf,证据副本/C3F8/历史参数化与量化/C8.gjf,e465999de8cc4f5d69355b07505fb87281ca844c7e5df67b00951ebdf9c68de5,853
+D:\GROMACS\1\Run_PC_C3F6_Final\C3F6.itp,证据副本/C3F6/实际生产/C3F6.itp,d23f7dae46ae914812d65b296da6934898b5191c570e920aa204c2028dac53ba,4830
+D:\GROMACS\1\Run_PC_C3F6_Final\clean_C3F6.itp,证据副本/C3F6/实际生产/clean_C3F6.itp,4b1fa8ab0d0aa21f13ae2f7caf0b776a6562d80e5eade02ddc47545c1dca2465,4404
+D:\GROMACS\1\Run_PC_C3F6_Final\system.top,证据副本/C3F6/实际生产/system.top,498fcddb15892a46116a653bdda692f87aefd5cba785c779251ccfd5d9e893c5,175
+D:\GROMACS\1\Run_PC_C3F6_Final\md.tpr,证据副本/C3F6/实际生产/md.tpr,0fe4ec9abf7a3105a42402583f0bc88d315a010b01d8e54e523c1e39a35a4ea7,104824
+D:\GROMACS\1\C3F6.itp,证据副本/C3F6/早期投料拓扑/C3F6.itp,d23f7dae46ae914812d65b296da6934898b5191c570e920aa204c2028dac53ba,4830
+D:\GROMACS\1\C3F6.gro,证据副本/C3F6/早期投料拓扑/C3F6.gro,4189d8564bb2c9b56935859675728fc1223ca00e51f3ad443b12520b5344c533,517
+D:\GAUSS\new try\Screening_Dashboard\actions\smart_auto_PC_C3F6.bat,证据副本/C3F6/项目运行脚本与记录/smart_auto_PC_C3F6.bat,229ddf36b9e30553b360a5c3e9eeff2c3d372f11b601eecddc572f5ead55de13,10234
+D:\GAUSS\new try\Screening_Dashboard\actions\screening_action_gromacs_c3f6_PC.log,证据副本/C3F6/项目运行脚本与记录/screening_action_gromacs_c3f6_PC.log,be978803fe502cc3a04f68cd4abd44c0541f3bcc98462b4dd3a8aa6b92f68cb8,1115716
+D:\六体系MD计算设置核查\02_PC_C3F6\TPR只读转储\md_dump.txt,证据副本/C3F6/实际生产/md_dump.txt,c865c48d85ce7f24b9c22ea43ab0f14b9eda6ac5cb1e51b1ef68d4163dba54ec,484811
+D:\GROMACS\C3F6\1.chg,证据副本/C3F6/历史参数化与量化/1.chg,bb67f8b3e88e6a51534e258089f242aaee4dacb6844bc1beb2fe3d44239ca178,495
+D:\GROMACS\C3F6\1.chk,证据副本/C3F6/历史参数化与量化/1.chk,72b0864eb0d066c1c19379f6ef8263f6956e2d87017000f31c3b6e1115b149f6,2494464
+D:\GROMACS\C3F6\1.fch,证据副本/C3F6/历史参数化与量化/1.fch,061c2e28c2fe550f129c36f1c208c226b1962558086c2e0707cd096ba97b5084,1197920
+D:\GROMACS\C3F6\1.gjf,证据副本/C3F6/历史参数化与量化/1.gjf,dffacaed15621070f515c1cafb9879ee22ba2f9bca1de87fd4c08e7e8d553589,721
+D:\GROMACS\C3F6\1.itp,证据副本/C3F6/历史参数化与量化/1.itp,d23f7dae46ae914812d65b296da6934898b5191c570e920aa204c2028dac53ba,4830
+D:\GROMACS\C3F6\1.mol2,证据副本/C3F6/历史参数化与量化/1.mol2,a83852ce8a38ba1870970fa872b995b56c032b7186827df23bbd8717b407edb9,614
+D:\GROMACS\C3F6\1.top,证据副本/C3F6/历史参数化与量化/1.top,81eddc56f29aeb1c80a6862fa7d6bfedeb0691e324341e679f30bd4b94f2abf0,325
+D:\GROMACS\C3F6\sobtop_2026.out,证据副本/C3F6/历史参数化与量化/sobtop_2026.out,844e57b5086c781b70c4cc31d5e0fde34cb38ca576a376bf51fef005eab10684,97849
+D:\GROMACS\3JA\sobtop1_2026.out,证据副本/C3F6/实际C3F6频率输出_原位于3JA/sobtop1_2026.out,9375d2e3707c3f7e519104e6eb25a6bded24a3e60739b2350d3ff0e66b021330,73561
+D:\GROMACS\sobtop_2026.1.16\1.bat,证据副本/通用脚本与旁证_非目标分子拟合日志/1.bat,8752d34ae15ef1b2a030269c80815b3301eff81319ff3eba849a319ba3cf01db,2865
+D:\GROMACS\sobtop_2026.1.16\1.txt,证据副本/通用脚本与旁证_非目标分子拟合日志/1.txt,6cc74fd964c76d870c80a66ce58d0d03a626b1e71e9981d6b848367b10da3a02,2792
+D:\GROMACS\sobtop_2026.1.16\1,证据副本/通用脚本与旁证_非目标分子拟合日志/1,73ca5f171826c1e52d9177421ce13fc054b56ffb417603e997370984beb35fd9,612
+D:\GROMACS\sobtop_2026.1.16\2,证据副本/通用脚本与旁证_非目标分子拟合日志/2,73ca5f171826c1e52d9177421ce13fc054b56ffb417603e997370984beb35fd9,612
+D:\GROMACS\sobtop_2026.1.16\批量自动生成itp和top文件.bat,证据副本/通用脚本与旁证_非目标分子拟合日志/批量自动生成itp和top文件.bat,496425f7ffbcbf832ada6496493f83aad39dced268a5ad8811414373a4b6b98e,2361
+D:\GROMACS\sobtop_2026.1.16\PC_mwfn_log.txt,证据副本/通用脚本与旁证_非目标分子拟合日志/PC_mwfn_log.txt,26bd04bb846954796c7e9b079be45bca71e5e00df18feea52f20bf15c3fd451f,12357
+D:\GROMACS\sobtop_2026.1.16\PC_sobtop_log.txt,证据副本/通用脚本与旁证_非目标分子拟合日志/PC_sobtop_log.txt,f4d15018409276a1fd925d8ddb45d4e7375a4b62ebdf52d219e8b08788c3ac2d,10748
+D:\Desktop\论文区\毕业论文\2026PSE\agent_paperfix_20260820\generated\corrected_reports\c3f8_c3f6_c3f8\research_task_package\molecular_inputs\structures\c3f8_6432_3d.mol2,证据副本/C3F8/项目MOL2_各数值类型代表副本_1/c3f8_6432_3d.mol2,202a502804d37525fe00b466abcfe8bccd0af31a60a8ee20c8d27994c20d633c,1279
+D:\Desktop\论文区\毕业论文\2026PSE\agent_paperfix_20260820\generated\corrected_reports\c3f8_c3f6_c3f8\research_task_package\molecular_inputs\structures\c3f6_8302_3d.mol2,证据副本/C3F6/项目MOL2_各数值类型代表副本_2/c3f6_8302_3d.mol2,66ef6ec2dc080efa89f7df7f4bbc08ae42aac5c7876192b162f800390696ebd1,1057

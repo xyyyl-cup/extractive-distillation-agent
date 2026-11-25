@@ -1,0 +1,13 @@
+﻿体系,分子,来源,逐原子电荷数量,TPR vs 实际clean ITP最大差 e,clean ITP vs 原 ITP最大差 e
+PC—C3F8,PC,D:\GROMACS\1\Run_PC_C3F8_Final\clean_PC.itp,13,4.4999999998518447e-07,0
+PC—C3F8,C3F8,D:\GROMACS\1\Run_PC_C3F8_Final\clean_C3F8.itp,11,4.4999999999906226e-07,0
+PC—C3F6,PC,D:\GROMACS\1\Run_PC_C3F6_Final\clean_PC.itp,13,4.4999999998518447e-07,0
+PC—C3F6,C3F6,D:\GROMACS\1\Run_PC_C3F6_Final\clean_C3F6.itp,9,4.2000000000097515e-07,0
+EC—乙醇,EC,D:\Desktop\论文区\毕业论文\萃取精馏筛选\aspen_ed_screening\generated\system_trials\ethanol_h2o_ethanol_20260612_105329\research_task_package\molecular_inputs\gromacs\ethanol_ec_legacy\clean_EC.itp,10,4.899999999918858e-07,0
+EC—乙醇,ETHANOL,D:\Desktop\论文区\毕业论文\萃取精馏筛选\aspen_ed_screening\generated\system_trials\ethanol_h2o_ethanol_20260612_105329\research_task_package\molecular_inputs\gromacs\ethanol_ec_legacy\clean_ETHANOL.itp,9,4.899999999641302e-07,0
+EC—水,EC,D:\Desktop\论文区\毕业论文\萃取精馏筛选\aspen_ed_screening\generated\system_trials\ethanol_h2o_ethanol_20260612_105329\research_task_package\molecular_inputs\gromacs\h2o_ec_legacy\clean_EC.itp,10,4.899999999918858e-07,0
+EC—水,H2O,D:\Desktop\论文区\毕业论文\萃取精馏筛选\aspen_ed_screening\generated\system_trials\ethanol_h2o_ethanol_20260612_105329\research_task_package\molecular_inputs\gromacs\h2o_ec_legacy\clean_H2O.itp,3,0.0,0
+GBL—甲醇,GBL,D:\Desktop\论文区\毕业论文\萃取精馏筛选\aspen_ed_screening\generated\system_trials\methanol_tetrahydrofuran_tetrahydrofuran_feed_5_5_mol_purity_0.99999_t_50.0_p_0.1_20260706_161958\research_task_package\molecular_inputs\gromacs\methanol_gbl_legacy\clean_GBL.itp,12,4.999999999588667e-07,0
+GBL—甲醇,JC,D:\Desktop\论文区\毕业论文\萃取精馏筛选\aspen_ed_screening\generated\system_trials\methanol_tetrahydrofuran_tetrahydrofuran_feed_5_5_mol_purity_0.99999_t_50.0_p_0.1_20260706_161958\research_task_package\molecular_inputs\gromacs\methanol_gbl_legacy\clean_JC.itp,6,3.600000000048009e-07,0
+GBL—THF,GBL,D:\Desktop\论文区\毕业论文\萃取精馏筛选\aspen_ed_screening\generated\system_trials\methanol_tetrahydrofuran_tetrahydrofuran_feed_5_5_mol_purity_0.99999_t_50.0_p_0.1_20260706_161958\research_task_package\molecular_inputs\gromacs\tetrahydrofuran_gbl_legacy\clean_GBL.itp,12,4.999999999588667e-07,0
+GBL—THF,TETRAHYDROFURAN,D:\Desktop\论文区\毕业论文\萃取精馏筛选\aspen_ed_screening\generated\system_trials\methanol_tetrahydrofuran_tetrahydrofuran_feed_5_5_mol_purity_0.99999_t_50.0_p_0.1_20260706_161958\research_task_package\molecular_inputs\gromacs\tetrahydrofuran_gbl_legacy\clean_TETRAHYDROFURAN.itp,13,2.0000000000575113e-07,0

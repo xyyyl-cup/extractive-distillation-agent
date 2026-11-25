@@ -1,0 +1,97 @@
+{
+  "id": "GBL_0993_local_b",
+  "case": {
+    "N1": 114.0,
+    "N2": 34.0,
+    "NF1": 48.0,
+    "NS1": 41.0,
+    "NF2": 16.0,
+    "RR1": 5.2012,
+    "RR2": 3.3834,
+    "D1": 5.037,
+    "D2": 4.965,
+    "SF": 3.4521
+  },
+  "warm_start": false,
+  "status": "radfrac_error",
+  "initialization": "Engine.Reinit()",
+  "UOSSTAT": 0,
+  "recycle_status": "EXCEEDED MAXIMUM NUMBER OF ITERATIONS",
+  "blocks": {
+    "B1": 0,
+    "B2": 0,
+    "B3": 0,
+    "B4": 0
+  },
+  "block_messages": {
+    "B1": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    },
+    "B2": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    },
+    "B3": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    },
+    "B4": {
+      "Name": "PER_ERROR",
+      "Value": 0,
+      "UnitString": "",
+      "ValueType": 1
+    }
+  },
+  "component_residuals_kmol_h": {
+    "B1": {
+      "METHANOL": 0.0,
+      "TETRAHYD": -9.99999993922529e-09,
+      "GBL": 0.0
+    },
+    "B2": {
+      "METHANOL": 9.99999993922529e-09,
+      "TETRAHYD": 0.0,
+      "GBL": 0.0
+    },
+    "B3": {
+      "METHANOL": -0.0019620399999999982,
+      "TETRAHYD": -3.796000000022559e-05,
+      "GBL": 0.0
+    },
+    "B4": {
+      "METHANOL": 0.0,
+      "TETRAHYD": 0.0,
+      "GBL": 0.0
+    },
+    "external": {
+      "METHANOL": -0.001962029999999615,
+      "TETRAHYD": -3.7970000000164816e-05,
+      "GBL": -1.59737042e-33
+    }
+  },
+  "mass_residual_kg_h": -0.06560500000000502,
+  "purity": 0.732193914,
+  "recovery": 0.544678414,
+  "makeup_kmol_h": 0.0,
+  "duties_cal_s": {
+    "B1": {
+      "COND_DUTY": -57583.5259,
+      "REB_DUTY": 61362.5302
+    },
+    "B2": {
+      "COND_DUTY": -35365.0872,
+      "REB_DUTY": 52868.1267
+    }
+  },
+  "closure": false,
+  "unit_states_pass": false,
+  "operating_signs_pass": true,
+  "product_constraints_pass": false
+}

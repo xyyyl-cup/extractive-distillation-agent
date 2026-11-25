@@ -1,0 +1,33 @@
+%chk=c3f8_pc_cp.chk
+%nprocshared=4
+%mem=4GB
+#p B3LYP/6-311G(d,p) EmpiricalDispersion=GD3BJ Counterpoise=2 Opt=Loose SCF=Tight NoSymm
+
+C3F8 + PC counterpoise dimer optimization | agent_pose=heavy_atom_vdw_contact
+
+0 1 0 1 0 1
+F(Fragment=1)            0.000000       1.409200       1.081800
+F(Fragment=1)            0.000100       1.401400      -1.096500
+F(Fragment=1)            1.333500      -1.024300      -1.087300
+F(Fragment=1)            1.317300      -1.014400       1.093600
+F(Fragment=1)            2.360600       0.561300       0.004800
+F(Fragment=1)           -1.319500      -1.011100       1.095900
+F(Fragment=1)           -2.360700       0.561200       0.000100
+F(Fragment=1)           -1.331200      -1.027700      -1.085000
+C(Fragment=1)            0.000000       0.595300      -0.004500
+C(Fragment=1)            1.263700      -0.225500      -0.001500
+C(Fragment=1)           -1.263700      -0.225500      -0.001500
+O(Fragment=2)            7.731600       0.952900       0.277000
+O(Fragment=2)            8.537400      -1.148400       0.269800
+O(Fragment=2)            9.998700       0.617500       0.141400
+C(Fragment=2)            6.657300       0.088600       0.629100
+C(Fragment=2)            7.127700      -1.238000       0.110300
+C(Fragment=2)            5.360600       0.561300       0.004800
+C(Fragment=2)            8.860600       0.180800       0.223100
+H(Fragment=2)            6.572900       0.086200       1.722500
+H(Fragment=2)            6.728100      -2.077200       0.686600
+H(Fragment=2)            6.910200      -1.395900      -0.951600
+H(Fragment=2)            5.454200       0.649200      -1.083300
+H(Fragment=2)            4.537900      -0.122300       0.234000
+H(Fragment=2)            5.102300       1.558800       0.376200
+

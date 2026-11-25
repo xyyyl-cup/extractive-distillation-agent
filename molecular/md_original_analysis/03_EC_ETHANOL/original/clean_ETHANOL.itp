@@ -1,0 +1,81 @@
+; Created by Sobtop (http://sobereva.com/soft/sobtop) Version 2026.1.16 on 2026-06-11
+
+[ moleculetype ]
+; name          nrexcl
+ETHANOL     3
+
+[ atoms ]
+;  Index   type   residue  resname   atom         cgnr     charge       mass
+     1     oh         1      MOL     O1             1   -0.63929014   15.999405
+     2     c3         1      MOL     C2             2    0.39965310   12.010736
+     3     c3         1      MOL     C3             3   -0.29349921   12.010736
+     4     h1         1      MOL     H4             4   -0.02691941    1.007941
+     5     h1         1      MOL     H5             5   -0.02691941    1.007941
+     6     hc         1      MOL     H6             6    0.06684152    1.007941
+     7     hc         1      MOL     H7             7    0.06684152    1.007941
+     8     hc         1      MOL     H8             8    0.06684152    1.007941
+     9     ho         1      MOL     H9             9    0.38645049    1.007941
+ 
+[ bonds ]
+;  atom_i   atom_j  functype      r0 (nm)    k (kJ/mol/nm^2)
+     1        2         1        0.142330     2.650146E+05     ; O1-C2, prebuilt c3-oh
+     1        9         1        0.097300     3.107875E+05     ; O1-H9, prebuilt ho-oh
+     2        3         1        0.153750     2.517931E+05     ; C2-C3, prebuilt c3-c3
+     2        4         1        0.109690     2.766461E+05     ; C2-H4, prebuilt c3-h1
+     2        5         1        0.109690     2.766461E+05     ; C2-H5, prebuilt c3-h1
+     3        6         1        0.109690     2.766461E+05     ; C3-H6, prebuilt c3-hc
+     3        7         1        0.109690     2.766461E+05     ; C3-H7, prebuilt c3-hc
+     3        8         1        0.109690     2.766461E+05     ; C3-H8, prebuilt c3-hc
+ 
+[ angles ]
+;  atom_i   atom_j   atom_k  functype    a0 (Deg.)  k (kJ/mol/rad^2)
+     2        1        9         1       107.260      3.966432E+02     ; C2-O1-H9, prebuilt c3-oh-ho
+     1        2        3         1       110.190      5.648400E+02     ; O1-C2-C3, prebuilt c3-c3-oh
+     1        2        4         1       110.260      4.259312E+02     ; O1-C2-H4, prebuilt h1-c3-oh
+     1        2        5         1       110.260      4.259312E+02     ; O1-C2-H5, prebuilt h1-c3-oh
+     3        2        4         1       109.560      3.882752E+02     ; C3-C2-H4, prebuilt c3-c3-h1
+     3        2        5         1       109.560      3.882752E+02     ; C3-C2-H5, prebuilt c3-c3-h1
+     4        2        5         1       108.460      3.280256E+02     ; H4-C2-H5, prebuilt h1-c3-h1
+     2        3        6         1       109.800      3.874384E+02     ; C2-C3-H6, prebuilt c3-c3-hc
+     2        3        7         1       109.800      3.874384E+02     ; C2-C3-H7, prebuilt c3-c3-hc
+     2        3        8         1       109.800      3.874384E+02     ; C2-C3-H8, prebuilt c3-c3-hc
+     6        3        7         1       107.580      3.296992E+02     ; H6-C3-H7, prebuilt hc-c3-hc
+     6        3        8         1       107.580      3.296992E+02     ; H6-C3-H8, prebuilt hc-c3-hc
+     7        3        8         1       107.580      3.296992E+02     ; H7-C3-H8, prebuilt hc-c3-hc
+ 
+[ dihedrals ] ; propers
+;  atom_i   atom_j   atom_k   atom_l  functype   d0 (Deg.)   k (kJ/mol/rad^2)    ; Case of functype=2
+;  atom_i   atom_j   atom_k   atom_l  functype  phase (Deg.)  kd (kJ/mol) pn     ; Case of functype=9
+     1        2        3        6         9         0.000       0.00000    3     ; O1-C2-C3-H6, prebuilt hc-c3-c3-oh
+     1        2        3        6         9         0.000       1.04600    1     ; O1-C2-C3-H6, prebuilt hc-c3-c3-oh
+     1        2        3        7         9         0.000       0.00000    3     ; O1-C2-C3-H7, prebuilt hc-c3-c3-oh
+     1        2        3        7         9         0.000       1.04600    1     ; O1-C2-C3-H7, prebuilt hc-c3-c3-oh
+     1        2        3        8         9         0.000       0.00000    3     ; O1-C2-C3-H8, prebuilt hc-c3-c3-oh
+     1        2        3        8         9         0.000       1.04600    1     ; O1-C2-C3-H8, prebuilt hc-c3-c3-oh
+     3        2        1        9         9         0.000       0.66944    3     ; C3-C2-O1-H9, prebuilt ho-oh-c3-c3
+     3        2        1        9         9         0.000       1.04600    1     ; C3-C2-O1-H9, prebuilt ho-oh-c3-c3
+     4        2        1        9         9         0.000       0.69733    3     ; H4-C2-O1-H9, prebuilt X-c3-oh-X
+     4        2        3        6         9         0.000       0.65084    3     ; H4-C2-C3-H6, prebuilt X-c3-c3-X
+     4        2        3        7         9         0.000       0.65084    3     ; H4-C2-C3-H7, prebuilt X-c3-c3-X
+     4        2        3        8         9         0.000       0.65084    3     ; H4-C2-C3-H8, prebuilt X-c3-c3-X
+     5        2        1        9         9         0.000       0.69733    3     ; H5-C2-O1-H9, prebuilt X-c3-oh-X
+     5        2        3        6         9         0.000       0.65084    3     ; H5-C2-C3-H6, prebuilt X-c3-c3-X
+     5        2        3        7         9         0.000       0.65084    3     ; H5-C2-C3-H7, prebuilt X-c3-c3-X
+     5        2        3        8         9         0.000       0.65084    3     ; H5-C2-C3-H8, prebuilt X-c3-c3-X
+
+[ pairs ] ; Yielded based on rotatable dihedrals
+;  atom_i   atom_j  functype
+     1        6         1     ; O1-C2-C3-H6
+     1        7         1     ; O1-C2-C3-H7
+     1        8         1     ; O1-C2-C3-H8
+     3        9         1     ; C3-C2-O1-H9
+     4        9         1     ; H4-C2-O1-H9
+     4        6         1     ; H4-C2-C3-H6
+     4        7         1     ; H4-C2-C3-H7
+     4        8         1     ; H4-C2-C3-H8
+     5        9         1     ; H5-C2-O1-H9
+     5        6         1     ; H5-C2-C3-H6
+     5        7         1     ; H5-C2-C3-H7
+     5        8         1     ; H5-C2-C3-H8
+
+; No improper needs to generate

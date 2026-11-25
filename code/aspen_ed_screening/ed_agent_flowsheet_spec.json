@@ -1,0 +1,182 @@
+{
+  "name": "closed_loop_extractive_distillation_C3F8_C3F6",
+  "property_method": "PRWS",
+  "components": [
+    "C3F6",
+    "C3F8",
+    "ETHYL-01",
+    "NMP",
+    "DMSO",
+    "SULFOLAN",
+    "PC",
+    "GBL",
+    "ADPN"
+  ],
+  "blocks": [
+    {
+      "id": "B1",
+      "type": "RADFRAC",
+      "model": "RadFrac",
+      "library_name": "RadFrac"
+    },
+    {
+      "id": "B2",
+      "type": "RADFRAC",
+      "model": "RadFrac",
+      "library_name": "RadFrac"
+    },
+    {
+      "id": "B3",
+      "type": "MIXER",
+      "model": "Mixer",
+      "library_name": "Mixer"
+    },
+    {
+      "id": "B4",
+      "type": "HEATER",
+      "model": "Heater",
+      "library_name": "Heater"
+    }
+  ],
+  "connections": [
+    {
+      "block": "B1",
+      "inputs": [
+        {
+          "stream": "C2",
+          "port": "M0-1"
+        },
+        {
+          "stream": "S2",
+          "port": "M0-1"
+        }
+      ],
+      "outputs": [
+        {
+          "stream": "D",
+          "port": "M0-1"
+        },
+        {
+          "stream": "W",
+          "port": "M2-3"
+        }
+      ]
+    },
+    {
+      "block": "B2",
+      "inputs": [
+        {
+          "stream": "W",
+          "port": "M0-1"
+        }
+      ],
+      "outputs": [
+        {
+          "stream": "S1",
+          "port": "M0-1"
+        },
+        {
+          "stream": "S3",
+          "port": "M2-3"
+        }
+      ]
+    },
+    {
+      "block": "B3",
+      "inputs": [
+        {
+          "stream": "C1",
+          "port": "M0-1"
+        },
+        {
+          "stream": "S3",
+          "port": "M0-1"
+        }
+      ],
+      "outputs": [
+        {
+          "stream": "C2",
+          "port": "M0-1"
+        }
+      ]
+    },
+    {
+      "block": "B4",
+      "inputs": [
+        {
+          "stream": "F",
+          "port": "M0-1"
+        }
+      ],
+      "outputs": [
+        {
+          "stream": "S2",
+          "port": "M0-1"
+        }
+      ]
+    }
+  ],
+  "radfrac": {
+    "B1": {
+      "nstage": 70,
+      "feeds": {
+        "C2": 34,
+        "S2": 52
+      },
+      "products": {
+        "D": {
+          "stage": 1,
+          "phase": "V"
+        },
+        "W": {
+          "stage": 70,
+          "phase": "L"
+        }
+      }
+    },
+    "B2": {
+      "nstage": 5,
+      "feeds": {
+        "W": 2
+      },
+      "products": {
+        "S1": {
+          "stage": 1,
+          "phase": "V"
+        },
+        "S3": {
+          "stage": 5,
+          "phase": "L"
+        }
+      }
+    }
+  },
+  "heater": {
+    "B4": {
+      "pressure_bar": 1.0,
+      "vapor_fraction": 0.0
+    }
+  },
+  "recycle": {
+    "fresh_makeup_stream": "C1",
+    "recycle_stream": "S3",
+    "actual_solvent_stream": "C2",
+    "calculator": "C-1",
+    "fortran_template": "FLOW={target_flow}-MOLARCO"
+  },
+  "default_smoke_case": {
+    "case_id": "AGENT_NMP_SMOKE",
+    "solvent_name": "NMP",
+    "aspen_component_id": "NMP",
+    "SF": 3.3387,
+    "RR1": 12.1788,
+    "D1": 8.980945,
+    "RR2": 2.7604,
+    "D2": 1.222392,
+    "N1": 70,
+    "NF1": 52,
+    "NS1": 34,
+    "N2": 5,
+    "NF2": 2
+  }
+}

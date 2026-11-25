@@ -1,0 +1,9 @@
+; System Top
+#include "combined_atomtypes.itp"
+#include "clean_GBL.itp"
+#include "clean_TETRAHYDROFURAN.itp"
+[ system ]
+Extraction_System
+[ molecules ]
+GBL      300
+TETRAHYDROFURAN       10

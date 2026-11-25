@@ -1,0 +1,3 @@
+source view_ball_stick.vmd
+render TachyonInternal ball_stick.tga
+quit

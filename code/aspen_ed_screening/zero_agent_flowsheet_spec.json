@@ -1,0 +1,300 @@
+{
+  "name": "zero_build_closed_loop_ed_C3F8_C3F6",
+  "property_method": "PRWS",
+  "components": [
+    {
+      "id": "C3F6",
+      "formula": "C3F6"
+    },
+    {
+      "id": "C3F8",
+      "formula": "C3F8"
+    },
+    {
+      "id": "ETHYL-01",
+      "formula": "C2H6O2"
+    },
+    {
+      "id": "NMP",
+      "formula": "C5H9NO-D2"
+    },
+    {
+      "id": "DMSO",
+      "formula": "C2H6OS"
+    },
+    {
+      "id": "SULFOLAN",
+      "formula": "C4H8O2S"
+    },
+    {
+      "id": "PC",
+      "formula": "C4H6O3-D1"
+    },
+    {
+      "id": "GBL",
+      "formula": "C4H6O2-D2"
+    },
+    {
+      "id": "ADPN",
+      "formula": "C6H8N2-D1"
+    }
+  ],
+  "unifac_structures": {
+    "C3F6": [
+      [
+        2955,
+        1
+      ],
+      [
+        1050,
+        1
+      ],
+      [
+        2960,
+        1
+      ],
+      [
+        2950,
+        1
+      ]
+    ],
+    "C3F8": [
+      [
+        2960,
+        2
+      ],
+      [
+        2955,
+        1
+      ]
+    ]
+  },
+  "nrtl_pairs": [
+    [
+      "ETHYL-01",
+      "NMP",
+      [
+        0.0,
+        -387.1213,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        50.0
+      ]
+    ],
+    [
+      "NMP",
+      "ETHYL-01",
+      [
+        0.0,
+        261.4792,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        50.0
+      ]
+    ],
+    [
+      "ETHYL-01",
+      "DMSO",
+      [
+        0.0,
+        -407.9908,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        100.0,
+        100.0
+      ]
+    ],
+    [
+      "DMSO",
+      "ETHYL-01",
+      [
+        0.0,
+        125.2802,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        100.0,
+        100.0
+      ]
+    ]
+  ],
+  "streams": {
+    "C1": {
+      "temperature_c": 25.0,
+      "pressure_bar": 1.0,
+      "mole_flow": {
+        "ETHYL-01": 30.0
+      }
+    },
+    "C2": {
+      "temperature_c": 197.651032,
+      "pressure_bar": 1.0,
+      "mole_flow": {
+        "C3F6": 4.4404766e-06,
+        "C3F8": 8.6621131e-09,
+        "ETHYL-01": 29.9999856
+      }
+    },
+    "F": {
+      "temperature_c": 50.0,
+      "pressure_bar": 1.0,
+      "mole_flow": {
+        "C3F6": 1.0,
+        "C3F8": 9.0
+      }
+    }
+  },
+  "blocks": [
+    {
+      "id": "B1",
+      "type": "RADFRAC",
+      "in": [
+        "C2",
+        "S2"
+      ],
+      "out": [
+        "D",
+        "W"
+      ]
+    },
+    {
+      "id": "B2",
+      "type": "RADFRAC",
+      "in": [
+        "W"
+      ],
+      "out": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "id": "B3",
+      "type": "MIXER",
+      "in": [
+        "C1",
+        "S3"
+      ],
+      "out": [
+        "C2"
+      ]
+    },
+    {
+      "id": "B4",
+      "type": "HEATER",
+      "in": [
+        "F"
+      ],
+      "out": [
+        "S2"
+      ]
+    }
+  ],
+  "heater": {
+    "B4": {
+      "pressure_bar": 1.0,
+      "vapor_fraction": 0.0
+    }
+  },
+  "radfrac": {
+    "B1": {
+      "nstage": 70,
+      "init_option": "STANDARD",
+      "max_iterations": 200,
+      "feeds": {
+        "C2": 34,
+        "S2": 52
+      },
+      "products": {
+        "D": [
+          1,
+          "V"
+        ],
+        "W": [
+          70,
+          "L"
+        ]
+      },
+      "pressure_bar": 1.0,
+      "distillate_mole_flow": 8.974,
+      "reflux_ratio": 14.0,
+      "internal_sections": [
+        [
+          1,
+          2,
+          33
+        ],
+        [
+          2,
+          34,
+          51
+        ],
+        [
+          3,
+          52,
+          69
+        ]
+      ]
+    },
+    "B2": {
+      "nstage": 5,
+      "max_iterations": 25,
+      "feeds": {
+        "W": 2
+      },
+      "products": {
+        "S1": [
+          1,
+          "V"
+        ],
+        "S3": [
+          5,
+          "L"
+        ]
+      },
+      "pressure_bar": 1.0,
+      "distillate_mole_flow": 1.2,
+      "reflux_ratio": 3.0,
+      "internal_sections": [
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    }
+  },
+  "calculator": {
+    "id": "C-1",
+    "solvent_component": "ETHYL-01",
+    "target_flow": 30.0,
+    "recycle_stream": "S3",
+    "makeup_stream": "C1"
+  },
+  "validation_role": "cold-start technical validation for the zero-built BKP; not a process optimum",
+  "validation_source": "generated/cold_search2_results.json::COLD2_RR70_D8.8",
+  "validation_case": {
+    "case_id": "ZERO_AGENT_NMP_COLD_START_VALIDATION",
+    "solvent_name": "NMP",
+    "aspen_component_id": "NMP",
+    "SF": 3.3387,
+    "RR1": 70.0,
+    "D1": 8.8,
+    "RR2": 2.7604,
+    "D2": 1.222392,
+    "N1": 70,
+    "NF1": 52,
+    "NS1": 34,
+    "N2": 5,
+    "NF2": 2
+  }
+}

@@ -1,0 +1,7 @@
+#include "H2O.itp"
+
+[ system ]
+H2O adapter
+
+[ molecules ]
+H2O 1

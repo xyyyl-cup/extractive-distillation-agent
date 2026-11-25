@@ -1,0 +1,82 @@
+; Created by Sobtop (http://sobereva.com/soft/sobtop) Version 2026.1.16 on 2026-01-23
+
+[ atomtypes ]
+; name   at.num      mass       charge   ptype     sigma (nm)    epsilon (kJ/mol)
+c3           6    12.010736    0.000000    A      3.399670E-01    4.577296E-01
+f            9    18.998403    0.000000    A      3.118146E-01    2.552240E-01
+
+[ moleculetype ]
+; name          nrexcl
+C3F8       3
+
+[ atoms ]
+;  Index   type   residue  resname   atom         cgnr     charge       mass
+     1     c3         1      MOL     C1             1    0.55000098   12.010736
+     2     c3         1      MOL     C2             2    0.06435586   12.010736
+     3     c3         1      MOL     C3             3    0.54885814   12.010736
+     4     f          1      MOL     F4             4   -0.16626101   18.998403
+     5     f          1      MOL     F5             5   -0.16612609   18.998403
+     6     f          1      MOL     F6             6   -0.14428899   18.998403
+     7     f          1      MOL     F7             7   -0.10520845   18.998403
+     8     f          1      MOL     F8             8   -0.10529540   18.998403
+     9     f          1      MOL     F9             9   -0.14385614   18.998403
+    10     f          1      MOL     F10           10   -0.16611721   18.998403
+    11     f          1      MOL     F11           11   -0.16606169   18.998403
+ 
+[ bonds ]
+;  atom_i   atom_j  functype      r0 (nm)    k (kJ/mol/nm^2)
+     1        2         1        0.155136     1.697781E+05     ; C1-C2, mSeminario method
+     1        4         1        0.133636     2.702434E+05     ; C1-F4, mSeminario method
+     1        5         1        0.133614     2.706386E+05     ; C1-F5, mSeminario method
+     1        6         1        0.133507     2.694088E+05     ; C1-F6, mSeminario method
+     2        3         1        0.155137     1.810112E+05     ; C2-C3, mSeminario method
+     2        7         1        0.134982     2.675096E+05     ; C2-F7, mSeminario method
+     2        8         1        0.134984     2.674610E+05     ; C2-F8, mSeminario method
+     3        9         1        0.133509     2.693445E+05     ; C3-F9, mSeminario method
+     3       10         1        0.133623     2.704383E+05     ; C3-F10, mSeminario method
+     3       11         1        0.133633     2.702977E+05     ; C3-F11, mSeminario method
+ 
+[ angles ]
+;  atom_i   atom_j   atom_k  functype    a0 (Deg.)  k (kJ/mol/rad^2)
+     2        1        4         1       110.530      7.120881E+02     ; C2-C1-F4, mSeminario method
+     2        1        5         1       110.543      7.098652E+02     ; C2-C1-F5, mSeminario method
+     2        1        6         1       109.066      7.384695E+02     ; C2-C1-F6, mSeminario method
+     4        1        5         1       108.967      7.877016E+02     ; F4-C1-F5, mSeminario method
+     4        1        6         1       108.845      8.558956E+02     ; F4-C1-F6, mSeminario method
+     5        1        6         1       108.850      8.549889E+02     ; F5-C1-F6, mSeminario method
+     1        2        3         1       115.518      9.216568E+02     ; C1-C2-C3, mSeminario method
+     1        2        7         1       108.016      7.630591E+02     ; C1-C2-F7, mSeminario method
+     1        2        8         1       108.007      7.624091E+02     ; C1-C2-F8, mSeminario method
+     3        2        7         1       108.009      7.623575E+02     ; C3-C2-F7, mSeminario method
+     3        2        8         1       108.013      7.630551E+02     ; C3-C2-F8, mSeminario method
+     7        2        8         1       109.155      6.803129E+02     ; F7-C2-F8, mSeminario method
+     2        3        9         1       109.061      7.385078E+02     ; C2-C3-F9, mSeminario method
+     2        3       10         1       110.544      7.097210E+02     ; C2-C3-F10, mSeminario method
+     2        3       11         1       110.536      7.122434E+02     ; C2-C3-F11, mSeminario method
+     9        3       10         1       108.848      8.550559E+02     ; F9-C3-F10, mSeminario method
+     9        3       11         1       108.849      8.557510E+02     ; F9-C3-F11, mSeminario method
+    10        3       11         1       108.965      7.877639E+02     ; F10-C3-F11, mSeminario method
+ 
+[ dihedrals ] ; propers
+;  atom_i   atom_j   atom_k   atom_l  functype   d0 (Deg.)   k (kJ/mol/rad^2)    ; Case of functype=2
+;  atom_i   atom_j   atom_k   atom_l  functype  phase (Deg.)  kd (kJ/mol) pn     ; Case of functype=9
+     1        2        3        9         2       179.794      4.160563E+02      ; C1-C2-C3-F9, mSeminario method
+     1        2        3       10         2       -60.569      4.335154E+02      ; C1-C2-C3-F10, mSeminario method
+     1        2        3       11         2        60.162      4.332246E+02      ; C1-C2-C3-F11, mSeminario method
+     3        2        1        4         2        60.191      4.334125E+02      ; C3-C2-C1-F4, mSeminario method
+     3        2        1        5         2       -60.538      4.336580E+02      ; C3-C2-C1-F5, mSeminario method
+     3        2        1        6         2       179.819      4.161687E+02      ; C3-C2-C1-F6, mSeminario method
+     4        1        2        7         2       -60.840      7.449368E+02      ; F4-C1-C2-F7, mSeminario method
+     4        1        2        8         2      -178.779      7.456059E+02      ; F4-C1-C2-F8, mSeminario method
+     5        1        2        7         2       178.430      7.456626E+02      ; F5-C1-C2-F7, mSeminario method
+     5        1        2        8         2        60.492      7.463330E+02      ; F5-C1-C2-F8, mSeminario method
+     6        1        2        7         2        58.788      6.954119E+02      ; F6-C1-C2-F7, mSeminario method
+     6        1        2        8         2       -59.151      6.959950E+02      ; F6-C1-C2-F8, mSeminario method
+     7        2        3        9         2       -59.171      6.959217E+02      ; F7-C2-C3-F9, mSeminario method
+     7        2        3       10         2        60.466      7.461878E+02      ; F7-C2-C3-F10, mSeminario method
+     7        2        3       11         2      -178.804      7.453266E+02      ; F7-C2-C3-F11, mSeminario method
+     8        2        3        9         2        58.768      6.954039E+02      ; F8-C2-C3-F9, mSeminario method
+     8        2        3       10         2       178.404      7.455925E+02      ; F8-C2-C3-F10, mSeminario method
+     8        2        3       11         2       -60.865      7.447327E+02      ; F8-C2-C3-F11, mSeminario method
+
+; No pair needs to generate

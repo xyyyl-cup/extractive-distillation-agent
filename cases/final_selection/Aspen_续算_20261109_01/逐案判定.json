@@ -1,0 +1,2428 @@
+[
+  {
+    "id": "GBL_0220_nonideal",
+    "case": {
+      "N1": 114.0,
+      "N2": 34.0,
+      "NF1": 53.0,
+      "NS1": 39.0,
+      "NF2": 15.0,
+      "RR1": 5.1639,
+      "RR2": 4.5916,
+      "D1": 5.090768,
+      "D2": 4.95,
+      "SF": 3.4521
+    },
+    "warm_start": false,
+    "status": "execution_error",
+    "solver_settings": {},
+    "exception": "com_error(-2147352567, '发生意外。', (14, 'VASetValue（详见errcode）', '值超出范围；必须介于1 和 200', None, 0, 0), None)"
+  },
+  {
+    "id": "GBL_0220_nonideal_nearby",
+    "case": {
+      "N1": 114.0,
+      "N2": 34.0,
+      "NF1": 53.0,
+      "NS1": 39.0,
+      "NF2": 15.0,
+      "RR1": 5.1639,
+      "RR2": 4.5916,
+      "D1": 5.050768,
+      "D2": 4.99,
+      "SF": 3.4521
+    },
+    "warm_start": false,
+    "status": "execution_error",
+    "solver_settings": {},
+    "exception": "com_error(-2147352567, '发生意外。', (14, 'VASetValue（详见errcode）', '值超出范围；必须介于1 和 200', None, 0, 0), None)"
+  },
+  {
+    "id": "GBL_0220_seed",
+    "case": {
+      "N1": 114.0,
+      "N2": 34.0,
+      "NF1": 53.0,
+      "NS1": 39.0,
+      "NF2": 15.0,
+      "RR1": 5.1639,
+      "RR2": 4.5916,
+      "D1": 5.090768,
+      "D2": 4.95,
+      "SF": 3.4521
+    },
+    "warm_start": false,
+    "status": "radfrac_error",
+    "initialization": "Engine.Reinit()",
+    "UOSSTAT": 1,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 1,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 1,
+        "UnitString": "",
+        "ValueType": 1,
+        "children": [
+          {
+            "Name": "1",
+            "Value": "** ERROR",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "2",
+            "Value": "   RADFRAC NOT CONVERGED IN 200 OUTSIDE LOOP ITERATIONS.",
+            "UnitString": "",
+            "ValueType": 3
+          }
+        ]
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "METHANOL": 0.0,
+        "TETRAHYD": -3.000000248221113e-10,
+        "GBL": 0.0
+      },
+      "B2": {
+        "METHANOL": 9.36089012e-23,
+        "TETRAHYD": 0.0,
+        "GBL": -2.999982484652719e-10
+      },
+      "B3": {
+        "METHANOL": -1.27242895e-33,
+        "TETRAHYD": 2.6276935595800002e-18,
+        "GBL": 0.0
+      },
+      "B4": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "external": {
+        "METHANOL": 0.0,
+        "TETRAHYD": -3.000000248221113e-10,
+        "GBL": -3.000000040054296e-10
+      }
+    },
+    "mass_residual_kg_h": 6.00000475969864e-08,
+    "purity": 0.990182541,
+    "recovery": 0.9818464,
+    "makeup_kmol_h": 0.040768,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -62997.5437,
+        "REB_DUTY": 61508.3891
+      },
+      "B2": {
+        "COND_DUTY": -76092.0913,
+        "REB_DUTY": 96905.0629
+      }
+    },
+    "closure": true,
+    "unit_states_pass": false,
+    "operating_signs_pass": true,
+    "product_constraints_pass": false
+  },
+  {
+    "id": "GBL_0220_shift_outlet",
+    "case": {
+      "N1": 114.0,
+      "N2": 34.0,
+      "NF1": 53.0,
+      "NS1": 39.0,
+      "NF2": 15.0,
+      "RR1": 5.1639,
+      "RR2": 4.5916,
+      "D1": 5.050768,
+      "D2": 4.99,
+      "SF": 3.4521
+    },
+    "warm_start": false,
+    "status": "radfrac_error",
+    "solver_settings": {},
+    "initialization": "Engine.Reinit()",
+    "UOSSTAT": 1,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 1,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 1,
+        "UnitString": "",
+        "ValueType": 1,
+        "children": [
+          {
+            "Name": "1",
+            "Value": "** ERROR",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "2",
+            "Value": "   RADFRAC NOT CONVERGED IN 200 OUTSIDE LOOP ITERATIONS.",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "3",
+            "Value": "",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "4",
+            "Value": "** ERROR",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "5",
+            "Value": "   BLOCK B1 IS NOT IN MASS BALANCE:",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "6",
+            "Value": "   MASS INLET FLOW = 0.97018708E+00, MASS OUTLET FLOW = 0.97254173E+00",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "7",
+            "Value": "   RELATIVE DIFFERENCE = 0.24270086E-02",
+            "UnitString": "",
+            "ValueType": 3
+          }
+        ]
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "METHANOL": 0.03082133168000034,
+        "TETRAHYD": 0.4870668214,
+        "GBL": -0.5178882000000016
+      },
+      "B2": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 5.000000413701855e-08
+      },
+      "B3": {
+        "METHANOL": 3.40279367e-29,
+        "TETRAHYD": 3.8756551699999994e-19,
+        "GBL": 0.0
+      },
+      "B4": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "external": {
+        "METHANOL": 0.030821331680000078,
+        "TETRAHYD": 0.4870668214,
+        "GBL": -0.51788815
+      }
+    },
+    "mass_residual_kg_h": -8.476748939999936,
+    "purity": 0.86886463,
+    "recovery": 0.885658766,
+    "makeup_kmol_h": 0.040768,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -55871.5262,
+        "REB_DUTY": 51686.6127
+      },
+      "B2": {
+        "COND_DUTY": -80987.001,
+        "REB_DUTY": 109532.638
+      }
+    },
+    "closure": false,
+    "unit_states_pass": false,
+    "operating_signs_pass": true,
+    "product_constraints_pass": false
+  },
+  {
+    "id": "GBL_0220_solver_only",
+    "case": {
+      "N1": 114.0,
+      "N2": 34.0,
+      "NF1": 53.0,
+      "NS1": 39.0,
+      "NF2": 15.0,
+      "RR1": 5.1639,
+      "RR2": 4.5916,
+      "D1": 5.090768,
+      "D2": 4.95,
+      "SF": 3.4521
+    },
+    "warm_start": false,
+    "status": "balanced_below_product_constraints",
+    "solver_settings": {
+      "B1.CONV_METH": "NONIDEAL"
+    },
+    "initialization": "Engine.Reinit()",
+    "UOSSTAT": 0,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 0,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "METHANOL": 5.000000413701855e-09,
+        "TETRAHYD": 5.000000413701855e-09,
+        "GBL": 0.0
+      },
+      "B2": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "B3": {
+        "METHANOL": -8.6539983e-27,
+        "TETRAHYD": 6.79875694e-19,
+        "GBL": 0.0
+      },
+      "B4": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "external": {
+        "METHANOL": 5.000000274923977e-09,
+        "TETRAHYD": 5.000000413701855e-09,
+        "GBL": 0.0
+      }
+    },
+    "mass_residual_kg_h": 6.00000475969864e-08,
+    "purity": 0.968002004,
+    "recovery": 0.934256128,
+    "makeup_kmol_h": 0.040768,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -61450.3463,
+        "REB_DUTY": 53917.7245
+      },
+      "B2": {
+        "COND_DUTY": -76603.1014,
+        "REB_DUTY": 106598.54
+      }
+    },
+    "closure": true,
+    "unit_states_pass": true,
+    "operating_signs_pass": true,
+    "product_constraints_pass": false
+  },
+  {
+    "id": "GBL_0220_warm_low_makeup",
+    "case": {
+      "N1": 114.0,
+      "N2": 34.0,
+      "NF1": 53.0,
+      "NS1": 39.0,
+      "NF2": 15.0,
+      "RR1": 5.1639,
+      "RR2": 4.5916,
+      "D1": 5.041,
+      "D2": 4.961,
+      "SF": 3.4521
+    },
+    "warm_start": true,
+    "status": "balanced_below_product_constraints",
+    "solver_settings": {
+      "B1.CONV_METH": "NONIDEAL"
+    },
+    "UOSSTAT": 0,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 0,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "B2": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "B3": {
+        "METHANOL": -7.099340970000001e-26,
+        "TETRAHYD": 8.969447389999998e-18,
+        "GBL": 0.0
+      },
+      "B4": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "external": {
+        "METHANOL": 3.3306690738754696e-16,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      }
+    },
+    "mass_residual_kg_h": 8.800000728115265e-07,
+    "purity": 0.973776093,
+    "recovery": 0.9361418020000001,
+    "makeup_kmol_h": 0.002,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -60852.1919,
+        "REB_DUTY": 52859.2761
+      },
+      "B2": {
+        "COND_DUTY": -56356.2642,
+        "REB_DUTY": 86003.5503
+      }
+    },
+    "closure": true,
+    "unit_states_pass": true,
+    "operating_signs_pass": true,
+    "product_constraints_pass": false
+  },
+  {
+    "id": "GBL_0220_warm_more_reflux",
+    "case": {
+      "N1": 114.0,
+      "N2": 34.0,
+      "NF1": 53.0,
+      "NS1": 39.0,
+      "NF2": 15.0,
+      "RR1": 8.0,
+      "RR2": 4.5916,
+      "D1": 5.041,
+      "D2": 4.961,
+      "SF": 3.4521
+    },
+    "warm_start": true,
+    "status": "balanced_below_product_constraints",
+    "solver_settings": {
+      "B1.CONV_METH": "NONIDEAL"
+    },
+    "UOSSTAT": 0,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 0,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "B2": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "B3": {
+        "METHANOL": -4.805039599999999e-26,
+        "TETRAHYD": 6.20365882e-18,
+        "GBL": 0.0
+      },
+      "B4": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "external": {
+        "METHANOL": 3.3306690738754696e-16,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      }
+    },
+    "mass_residual_kg_h": 8.800000159681076e-07,
+    "purity": 0.92252361,
+    "recovery": 0.835054732,
+    "makeup_kmol_h": 0.002,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -93794.9656,
+        "REB_DUTY": 83422.9308
+      },
+      "B2": {
+        "COND_DUTY": -57261.9007,
+        "REB_DUTY": 89187.6954
+      }
+    },
+    "closure": true,
+    "unit_states_pass": true,
+    "operating_signs_pass": true,
+    "product_constraints_pass": false
+  },
+  {
+    "id": "GBL_0220_warm_more_solvent",
+    "case": {
+      "N1": 114.0,
+      "N2": 34.0,
+      "NF1": 53.0,
+      "NS1": 39.0,
+      "NF2": 15.0,
+      "RR1": 8.0,
+      "RR2": 4.5916,
+      "D1": 5.041,
+      "D2": 4.961,
+      "SF": 4.0
+    },
+    "warm_start": true,
+    "status": "balanced_below_product_constraints",
+    "solver_settings": {
+      "B1.CONV_METH": "NONIDEAL"
+    },
+    "UOSSTAT": 0,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 0,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "METHANOL": 4.000000330961484e-09,
+        "TETRAHYD": 3.999999442783064e-09,
+        "GBL": 0.0
+      },
+      "B2": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "B3": {
+        "METHANOL": -2.2195797199999997e-25,
+        "TETRAHYD": 4.3169934e-17,
+        "GBL": 0.0
+      },
+      "B4": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "external": {
+        "METHANOL": 4.000000330961484e-09,
+        "TETRAHYD": 3.999999442783064e-09,
+        "GBL": 0.0
+      }
+    },
+    "mass_residual_kg_h": -1.199999815071351e-07,
+    "purity": 0.955254669,
+    "recovery": 0.8981955100000001,
+    "makeup_kmol_h": 0.002,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -94131.3039,
+        "REB_DUTY": 83679.6535
+      },
+      "B2": {
+        "COND_DUTY": -56703.6279,
+        "REB_DUTY": 88771.639
+      }
+    },
+    "closure": true,
+    "unit_states_pass": true,
+    "operating_signs_pass": true,
+    "product_constraints_pass": false
+  },
+  {
+    "id": "GBL_0749_seed",
+    "case": {
+      "N1": 132.0,
+      "N2": 25.0,
+      "NF1": 35.0,
+      "NS1": 12.0,
+      "NF2": 2.0,
+      "RR1": 13.7961,
+      "RR2": 1.0651,
+      "D1": 5.275596,
+      "D2": 4.750648,
+      "SF": 0.6835
+    },
+    "warm_start": false,
+    "status": "radfrac_error",
+    "solver_settings": {},
+    "initialization": "Engine.Reinit()",
+    "UOSSTAT": 1,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 1,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 1,
+        "UnitString": "",
+        "ValueType": 1,
+        "children": [
+          {
+            "Name": "1",
+            "Value": "** ERROR",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "2",
+            "Value": "   RADFRAC NOT CONVERGED IN 200 OUTSIDE LOOP ITERATIONS.",
+            "UnitString": "",
+            "ValueType": 3
+          }
+        ]
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "B2": {
+        "METHANOL": 5.75007213e-47,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "B3": {
+        "METHANOL": -1.11020928e-32,
+        "TETRAHYD": 5.37840664e-24,
+        "GBL": 0.0
+      },
+      "B4": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "external": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      }
+    },
+    "mass_residual_kg_h": -4.899999908047903e-07,
+    "purity": 0.993411446,
+    "recovery": 0.9448808,
+    "makeup_kmol_h": 0.026244,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -171133.816,
+        "REB_DUTY": 177482.499
+      },
+      "B2": {
+        "COND_DUTY": -17714.4831,
+        "REB_DUTY": 33538.6497
+      }
+    },
+    "closure": true,
+    "unit_states_pass": false,
+    "operating_signs_pass": true,
+    "product_constraints_pass": false
+  },
+  {
+    "id": "GBL_0749_shift_outlet",
+    "case": {
+      "N1": 132.0,
+      "N2": 25.0,
+      "NF1": 35.0,
+      "NS1": 12.0,
+      "NF2": 2.0,
+      "RR1": 13.7961,
+      "RR2": 1.0651,
+      "D1": 5.056244,
+      "D2": 4.97,
+      "SF": 0.6835
+    },
+    "warm_start": false,
+    "status": "radfrac_error",
+    "solver_settings": {},
+    "initialization": "Engine.Reinit()",
+    "UOSSTAT": 1,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 1,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 1,
+        "UnitString": "",
+        "ValueType": 1,
+        "children": [
+          {
+            "Name": "1",
+            "Value": "** ERROR",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "2",
+            "Value": "   RADFRAC NOT CONVERGED IN 200 OUTSIDE LOOP ITERATIONS.",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "3",
+            "Value": "",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "4",
+            "Value": "** ERROR",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "5",
+            "Value": "   BLOCK B1 IS NOT IN MASS BALANCE:",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "6",
+            "Value": "   MASS INLET FLOW = 0.30810377E+00, MASS OUTLET FLOW = 0.30733784E+00",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "7",
+            "Value": "   RELATIVE DIFFERENCE = 0.24921297E-02",
+            "UnitString": "",
+            "ValueType": 3
+          }
+        ]
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "METHANOL": -0.15054514199999947,
+        "TETRAHYD": 0.3846938,
+        "GBL": -0.2341486599999998
+      },
+      "B2": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 3.63359127e-39,
+        "GBL": 4.000000330961484e-09
+      },
+      "B3": {
+        "METHANOL": 1.34734658e-33,
+        "TETRAHYD": -1.60117226e-25,
+        "GBL": 0.0
+      },
+      "B4": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "external": {
+        "METHANOL": -0.15054514199999947,
+        "TETRAHYD": 0.3846938,
+        "GBL": -0.234148656
+      }
+    },
+    "mass_residual_kg_h": 2.7573335100000236,
+    "purity": 0.0,
+    "recovery": 0.0,
+    "makeup_kmol_h": 0.026244,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -137675.822,
+        "REB_DUTY": 141187.315
+      },
+      "B2": {
+        "COND_DUTY": -19807.5311,
+        "REB_DUTY": 39015.7658
+      }
+    },
+    "closure": false,
+    "unit_states_pass": false,
+    "operating_signs_pass": true,
+    "product_constraints_pass": false
+  },
+  {
+    "id": "GBL_0749_solver_only",
+    "case": {
+      "N1": 132.0,
+      "N2": 25.0,
+      "NF1": 35.0,
+      "NS1": 12.0,
+      "NF2": 2.0,
+      "RR1": 13.7961,
+      "RR2": 1.0651,
+      "D1": 5.275596,
+      "D2": 4.750648,
+      "SF": 0.6835
+    },
+    "warm_start": false,
+    "status": "balanced_below_product_constraints",
+    "solver_settings": {
+      "B1.CONV_METH": "NONIDEAL"
+    },
+    "initialization": "Engine.Reinit()",
+    "UOSSTAT": 0,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 0,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "B2": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": -6.000000496442226e-10
+      },
+      "B3": {
+        "METHANOL": 2.305579999999738e-36,
+        "TETRAHYD": 1.4928000000012433e-28,
+        "GBL": 0.0
+      },
+      "B4": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "external": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": -6.000000010719653e-10
+      }
+    },
+    "mass_residual_kg_h": -4.900000476482091e-07,
+    "purity": 0.637574197,
+    "recovery": 0.42075153600000004,
+    "makeup_kmol_h": 0.026244,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -153202.592,
+        "REB_DUTY": 157472.229
+      },
+      "B2": {
+        "COND_DUTY": -18086.0286,
+        "REB_DUTY": 35580.6481
+      }
+    },
+    "closure": true,
+    "unit_states_pass": true,
+    "operating_signs_pass": true,
+    "product_constraints_pass": false
+  },
+  {
+    "id": "GBL_0749_warm_shift_outlet",
+    "case": {
+      "N1": 132.0,
+      "N2": 25.0,
+      "NF1": 35.0,
+      "NS1": 12.0,
+      "NF2": 2.0,
+      "RR1": 13.7961,
+      "RR2": 1.0651,
+      "D1": 5.041,
+      "D2": 4.961,
+      "SF": 0.6835
+    },
+    "warm_start": true,
+    "status": "balanced_below_product_constraints",
+    "solver_settings": {
+      "B1.CONV_METH": "NONIDEAL"
+    },
+    "UOSSTAT": 0,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 0,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "B2": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": -2.000000165480742e-11
+      },
+      "B3": {
+        "METHANOL": -1.0191499999999797e-34,
+        "TETRAHYD": -4.6318500000001504e-26,
+        "GBL": 0.0
+      },
+      "B4": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "external": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": -1.9999999920083944e-11
+      }
+    },
+    "mass_residual_kg_h": -1.1999992466371623e-07,
+    "purity": 0.647775359,
+    "recovery": 0.44651055599999995,
+    "makeup_kmol_h": 0.002,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -146390.022,
+        "REB_DUTY": 150107.487
+      },
+      "B2": {
+        "COND_DUTY": -14108.9517,
+        "REB_DUTY": 31708.687
+      }
+    },
+    "closure": true,
+    "unit_states_pass": true,
+    "operating_signs_pass": true,
+    "product_constraints_pass": false
+  },
+  {
+    "id": "GBL_0750_seed",
+    "case": {
+      "N1": 114.0,
+      "N2": 34.0,
+      "NF1": 53.0,
+      "NS1": 35.0,
+      "NF2": 15.0,
+      "RR1": 5.2012,
+      "RR2": 4.528,
+      "D1": 5.247,
+      "D2": 5.175453,
+      "SF": 3.4521
+    },
+    "warm_start": false,
+    "status": "radfrac_error",
+    "initialization": "Engine.Reinit()",
+    "UOSSTAT": 1,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 1,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 1,
+        "UnitString": "",
+        "ValueType": 1,
+        "children": [
+          {
+            "Name": "1",
+            "Value": "** ERROR",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "2",
+            "Value": "   RADFRAC NOT CONVERGED IN 200 OUTSIDE LOOP ITERATIONS.",
+            "UnitString": "",
+            "ValueType": 3
+          }
+        ]
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "METHANOL": -2.496829409892598e-10,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "B2": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "B3": {
+        "METHANOL": 1.9821939022e-36,
+        "TETRAHYD": 9.09119179e-19,
+        "GBL": 0.0
+      },
+      "B4": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "external": {
+        "METHANOL": -2.49682553e-10,
+        "TETRAHYD": 0.0,
+        "GBL": 2.7755575615628914e-17
+      }
+    },
+    "mass_residual_kg_h": -4.000000330961484e-07,
+    "purity": 0.959789029,
+    "recovery": 1.0,
+    "makeup_kmol_h": 0.422453,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -87205.2177,
+        "REB_DUTY": 87907.791
+      },
+      "B2": {
+        "COND_DUTY": -83846.7536,
+        "REB_DUTY": 104973.189
+      }
+    },
+    "closure": true,
+    "unit_states_pass": false,
+    "operating_signs_pass": true,
+    "product_constraints_pass": false
+  },
+  {
+    "id": "GBL_0993_local_a",
+    "case": {
+      "N1": 114.0,
+      "N2": 34.0,
+      "NF1": 48.0,
+      "NS1": 41.0,
+      "NF2": 16.0,
+      "RR1": 5.2012,
+      "RR2": 3.3834,
+      "D1": 5.047,
+      "D2": 4.955,
+      "SF": 3.4521
+    },
+    "warm_start": false,
+    "status": "radfrac_error",
+    "initialization": "Engine.Reinit()",
+    "UOSSTAT": 1,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 1,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 1,
+        "UnitString": "",
+        "ValueType": 1,
+        "children": [
+          {
+            "Name": "1",
+            "Value": "** ERROR",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "2",
+            "Value": "   RADFRAC NOT CONVERGED IN 200 OUTSIDE LOOP ITERATIONS.",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "3",
+            "Value": "",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "4",
+            "Value": "** ERROR",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "5",
+            "Value": "   BLOCK B1 IS NOT IN MASS BALANCE:",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "6",
+            "Value": "   MASS INLET FLOW = 0.97018708E+00, MASS OUTLET FLOW = 0.99157420E+00",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "7",
+            "Value": "   RELATIVE DIFFERENCE = 0.22044331E-01",
+            "UnitString": "",
+            "ValueType": 3
+          }
+        ]
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "METHANOL": 1.921729955,
+        "TETRAHYD": -1.9217299599999986,
+        "GBL": 0.0
+      },
+      "B2": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "B3": {
+        "METHANOL": 1.2007300400000002e-23,
+        "TETRAHYD": -4.02871172e-16,
+        "GBL": 0.0
+      },
+      "B4": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "external": {
+        "METHANOL": 1.9217299550000004,
+        "TETRAHYD": -1.9217299599999995,
+        "GBL": 0.0
+      }
+    },
+    "mass_residual_kg_h": -76.99364911999999,
+    "purity": 0.688671606,
+    "recovery": 0.49157791399999995,
+    "makeup_kmol_h": 0.002,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -54612.2899,
+        "REB_DUTY": 43280.5679
+      },
+      "B2": {
+        "COND_DUTY": -43395.8084,
+        "REB_DUTY": 78094.8178
+      }
+    },
+    "closure": false,
+    "unit_states_pass": false,
+    "operating_signs_pass": true,
+    "product_constraints_pass": false
+  },
+  {
+    "id": "GBL_0993_local_b",
+    "case": {
+      "N1": 114.0,
+      "N2": 34.0,
+      "NF1": 48.0,
+      "NS1": 41.0,
+      "NF2": 16.0,
+      "RR1": 5.2012,
+      "RR2": 3.3834,
+      "D1": 5.037,
+      "D2": 4.965,
+      "SF": 3.4521
+    },
+    "warm_start": false,
+    "status": "radfrac_error",
+    "initialization": "Engine.Reinit()",
+    "UOSSTAT": 0,
+    "recycle_status": "EXCEEDED MAXIMUM NUMBER OF ITERATIONS",
+    "blocks": {
+      "B1": 0,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "METHANOL": 0.0,
+        "TETRAHYD": -9.99999993922529e-09,
+        "GBL": 0.0
+      },
+      "B2": {
+        "METHANOL": 9.99999993922529e-09,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "B3": {
+        "METHANOL": -0.0019620399999999982,
+        "TETRAHYD": -3.796000000022559e-05,
+        "GBL": 0.0
+      },
+      "B4": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "external": {
+        "METHANOL": -0.001962029999999615,
+        "TETRAHYD": -3.7970000000164816e-05,
+        "GBL": -1.59737042e-33
+      }
+    },
+    "mass_residual_kg_h": -0.06560500000000502,
+    "purity": 0.732193914,
+    "recovery": 0.544678414,
+    "makeup_kmol_h": 0.0,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -57583.5259,
+        "REB_DUTY": 61362.5302
+      },
+      "B2": {
+        "COND_DUTY": -35365.0872,
+        "REB_DUTY": 52868.1267
+      }
+    },
+    "closure": false,
+    "unit_states_pass": false,
+    "operating_signs_pass": true,
+    "product_constraints_pass": false
+  },
+  {
+    "id": "GBL_0993_local_c",
+    "case": {
+      "N1": 114.0,
+      "N2": 34.0,
+      "NF1": 48.0,
+      "NS1": 41.0,
+      "NF2": 16.0,
+      "RR1": 5.2012,
+      "RR2": 3.3834,
+      "D1": 5.027,
+      "D2": 4.975,
+      "SF": 3.4521
+    },
+    "warm_start": false,
+    "status": "radfrac_error",
+    "initialization": "Engine.Reinit()",
+    "UOSSTAT": 0,
+    "recycle_status": "EXCEEDED MAXIMUM NUMBER OF ITERATIONS",
+    "blocks": {
+      "B1": 0,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "B2": {
+        "METHANOL": -4.440892098500626e-16,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "B3": {
+        "METHANOL": -0.0026537200000000816,
+        "TETRAHYD": 0.0006537199999998577,
+        "GBL": 0.0
+      },
+      "B4": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "external": {
+        "METHANOL": -0.0026537200000000816,
+        "TETRAHYD": 0.0006537199999998577,
+        "GBL": -1.58876712e-33
+      }
+    },
+    "mass_residual_kg_h": -0.03789399999993748,
+    "purity": 0.732149849,
+    "recovery": 0.545720078,
+    "makeup_kmol_h": 0.0,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -57472.5918,
+        "REB_DUTY": 61213.7295
+      },
+      "B2": {
+        "COND_DUTY": -35436.0298,
+        "REB_DUTY": 52974.7644
+      }
+    },
+    "closure": false,
+    "unit_states_pass": false,
+    "operating_signs_pass": true,
+    "product_constraints_pass": false
+  },
+  {
+    "id": "GBL_0993_warm_nonideal",
+    "case": {
+      "N1": 114.0,
+      "N2": 34.0,
+      "NF1": 48.0,
+      "NS1": 41.0,
+      "NF2": 16.0,
+      "RR1": 5.2012,
+      "RR2": 3.3834,
+      "D1": 5.247,
+      "D2": 4.95,
+      "SF": 3.4521
+    },
+    "warm_start": true,
+    "status": "balanced_below_product_constraints",
+    "solver_settings": {
+      "B1.CONV_METH": "NONIDEAL"
+    },
+    "UOSSTAT": 0,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 0,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "METHANOL": 3.999999442783064e-09,
+        "TETRAHYD": 4.000000330961484e-09,
+        "GBL": 0.0
+      },
+      "B2": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "B3": {
+        "METHANOL": -7.570019610000001e-25,
+        "TETRAHYD": 2.40957257e-17,
+        "GBL": 0.0
+      },
+      "B4": {
+        "METHANOL": 0.0,
+        "TETRAHYD": 0.0,
+        "GBL": 0.0
+      },
+      "external": {
+        "METHANOL": 3.999999609316518e-09,
+        "TETRAHYD": 4.000000330961484e-09,
+        "GBL": 0.0
+      }
+    },
+    "mass_residual_kg_h": 7.000001005508238e-07,
+    "purity": 0.905427067,
+    "recovery": 0.8553949599999999,
+    "makeup_kmol_h": 0.197,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -63579.468,
+        "REB_DUTY": 55650.9307
+      },
+      "B2": {
+        "COND_DUTY": -60789.3598,
+        "REB_DUTY": 92635.5185
+      }
+    },
+    "closure": true,
+    "unit_states_pass": true,
+    "operating_signs_pass": true,
+    "product_constraints_pass": false
+  },
+  {
+    "id": "PC_2891_B2_nonideal",
+    "case": {
+      "N1": 110.0,
+      "N2": 26.0,
+      "NF1": 64.0,
+      "NS1": 23.0,
+      "NF2": 6.0,
+      "RR1": 8.0,
+      "RR2": 0.932,
+      "D1": 8.997729,
+      "D2": 1.8315,
+      "SF": 0.4706
+    },
+    "warm_start": true,
+    "status": "verified",
+    "solver_settings": {
+      "B2.CONV_METH": "NONIDEAL"
+    },
+    "UOSSTAT": 0,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 0,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "C3F8": 3.7499994220979715e-09,
+        "C3F6": -2.5339996767570483e-10,
+        "PC": 0.0
+      },
+      "B2": {
+        "C3F8": 0.0,
+        "C3F6": 0.0,
+        "PC": 0.0
+      },
+      "B3": {
+        "C3F8": 5.274662000000005e-65,
+        "C3F6": -3.514699999999305e-58,
+        "PC": 0.0
+      },
+      "B4": {
+        "C3F8": 0.0,
+        "C3F6": 0.0,
+        "PC": 0.0
+      },
+      "external": {
+        "C3F8": 3.750000133334597e-09,
+        "C3F6": -2.5339996767570483e-10,
+        "PC": 0.0
+      }
+    },
+    "mass_residual_kg_h": 2.9000000552059646e-06,
+    "purity": 0.99999142,
+    "recovery": 0.9997390888888888,
+    "makeup_kmol_h": 0.829229,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -95564.991,
+        "REB_DUTY": 91590.4832
+      },
+      "B2": {
+        "COND_DUTY": -6761.41556,
+        "REB_DUTY": 31549.9303
+      }
+    },
+    "closure": true,
+    "unit_states_pass": true,
+    "operating_signs_pass": true,
+    "product_constraints_pass": true
+  },
+  {
+    "id": "PC_2891_warm_from_2989",
+    "case": {
+      "N1": 110.0,
+      "N2": 26.0,
+      "NF1": 64.0,
+      "NS1": 23.0,
+      "NF2": 6.0,
+      "RR1": 8.0,
+      "RR2": 0.932,
+      "D1": 8.997729,
+      "D2": 1.8315,
+      "SF": 0.4706
+    },
+    "warm_start": true,
+    "status": "radfrac_error",
+    "UOSSTAT": 1,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 0,
+      "B2": 1,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 1,
+        "UnitString": "",
+        "ValueType": 1,
+        "children": [
+          {
+            "Name": "1",
+            "Value": "***SEVERE ERROR",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "2",
+            "Value": "   THE FOLLOWING STAGES DRIED UP (VAPOR OR LIQUID FLOW APPROACHES 0):",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "3",
+            "Value": "     2",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "4",
+            "Value": "   A LIMIT OF  0.10000E-04 * SUM OF FEEDS WAS IMPOSED ON THE FLOW RATES",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "5",
+            "Value": "   OR A LIMIT OF  0.10000E-04 WAS IMPOSED ON THE STAGE V/L OR L/V RATIO.",
+            "UnitString": "",
+            "ValueType": 3
+          }
+        ]
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "C3F8": 3.7499994220979715e-09,
+        "C3F6": -2.5300006534223485e-10,
+        "PC": 0.0
+      },
+      "B2": {
+        "C3F8": 0.0,
+        "C3F6": 0.0,
+        "PC": 0.0
+      },
+      "B3": {
+        "C3F8": 2.281217064826e-59,
+        "C3F6": 8.18765368815e-51,
+        "PC": 0.0
+      },
+      "B4": {
+        "C3F8": 0.0,
+        "C3F6": 0.0,
+        "PC": 0.0
+      },
+      "external": {
+        "C3F8": 3.750000133334597e-09,
+        "C3F6": -2.529999543199324e-10,
+        "PC": 0.0
+      }
+    },
+    "mass_residual_kg_h": 2.9000000552059646e-06,
+    "purity": 0.99999142,
+    "recovery": 0.9997390888888888,
+    "makeup_kmol_h": 0.829229,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -95564.991,
+        "REB_DUTY": 91590.4833
+      },
+      "B2": {
+        "COND_DUTY": 53839.6431,
+        "REB_DUTY": 2.78238589
+      }
+    },
+    "closure": true,
+    "unit_states_pass": false,
+    "operating_signs_pass": false,
+    "product_constraints_pass": true
+  },
+  {
+    "id": "PC_2989_path_SF_0p26",
+    "case": {
+      "N1": 110.0,
+      "N2": 28.0,
+      "NF1": 66.0,
+      "NS1": 22.0,
+      "NF2": 6.0,
+      "RR1": 8.0,
+      "RR2": 0.7925,
+      "D1": 8.994827,
+      "D2": 1.8315,
+      "SF": 0.26
+    },
+    "warm_start": true,
+    "status": "verified",
+    "solver_settings": {},
+    "UOSSTAT": 0,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 0,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "C3F8": -4.920000407082625e-09,
+        "C3F6": 7.970002435797596e-11,
+        "PC": 0.0
+      },
+      "B2": {
+        "C3F8": 0.0,
+        "C3F6": 0.0,
+        "PC": 0.0
+      },
+      "B3": {
+        "C3F8": 2.2293629999999856e-72,
+        "C3F6": -5.924999999999495e-64,
+        "PC": 0.0
+      },
+      "B4": {
+        "C3F8": 0.0,
+        "C3F6": 0.0,
+        "PC": 0.0
+      },
+      "external": {
+        "C3F8": -4.919999668957786e-09,
+        "C3F6": 7.970002435797596e-11,
+        "PC": 0.0
+      }
+    },
+    "mass_residual_kg_h": -4.799999771876173e-06,
+    "purity": 0.999991701,
+    "recovery": 0.9994169288888889,
+    "makeup_kmol_h": 0.826327,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -95534.1697,
+        "REB_DUTY": 100012.824
+      },
+      "B2": {
+        "COND_DUTY": -5763.04157,
+        "REB_DUTY": 22086.1566
+      }
+    },
+    "closure": true,
+    "unit_states_pass": true,
+    "operating_signs_pass": true,
+    "product_constraints_pass": true
+  },
+  {
+    "id": "PC_2989_path_SF_0p275",
+    "case": {
+      "N1": 110.0,
+      "N2": 28.0,
+      "NF1": 66.0,
+      "NS1": 22.0,
+      "NF2": 6.0,
+      "RR1": 8.0,
+      "RR2": 0.7925,
+      "D1": 8.994827,
+      "D2": 1.8315,
+      "SF": 0.275
+    },
+    "warm_start": true,
+    "status": "verified",
+    "solver_settings": {},
+    "UOSSTAT": 0,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 0,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "C3F8": 7.900009535433128e-10,
+        "C3F6": -2.1440005326667233e-10,
+        "PC": 0.0
+      },
+      "B2": {
+        "C3F8": 0.0,
+        "C3F6": 0.0,
+        "PC": 0.0
+      },
+      "B3": {
+        "C3F8": -1.8992356749999998e-68,
+        "C3F6": -2.057983921e-59,
+        "PC": 0.0
+      },
+      "B4": {
+        "C3F8": 0.0,
+        "C3F6": 0.0,
+        "PC": 0.0
+      },
+      "external": {
+        "C3F8": 7.900003221039675e-10,
+        "C3F6": -2.1439994224436987e-10,
+        "PC": 0.0
+      }
+    },
+    "mass_residual_kg_h": 1.2000001277101546e-06,
+    "purity": 0.999991864,
+    "recovery": 0.9994170911111111,
+    "makeup_kmol_h": 0.826327,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -95534.1702,
+        "REB_DUTY": 99409.3281
+      },
+      "B2": {
+        "COND_DUTY": -5761.8673,
+        "REB_DUTY": 22688.9702
+      }
+    },
+    "closure": true,
+    "unit_states_pass": true,
+    "operating_signs_pass": true,
+    "product_constraints_pass": true
+  },
+  {
+    "id": "PC_2989_path_SF_0p29",
+    "case": {
+      "N1": 110.0,
+      "N2": 28.0,
+      "NF1": 66.0,
+      "NS1": 22.0,
+      "NF2": 6.0,
+      "RR1": 8.0,
+      "RR2": 0.7925,
+      "D1": 8.994827,
+      "D2": 1.8315,
+      "SF": 0.29
+    },
+    "warm_start": true,
+    "status": "verified",
+    "solver_settings": {},
+    "UOSSTAT": 0,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 0,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "C3F8": 3.520000291246106e-09,
+        "C3F6": -4.82899942255699e-10,
+        "PC": 0.0
+      },
+      "B2": {
+        "C3F8": 0.0,
+        "C3F6": 0.0,
+        "PC": 0.0
+      },
+      "B3": {
+        "C3F8": -1.29818999999999e-72,
+        "C3F6": -1.735299999999354e-64,
+        "PC": 0.0
+      },
+      "B4": {
+        "C3F8": 0.0,
+        "C3F6": 0.0,
+        "PC": 0.0
+      },
+      "external": {
+        "C3F8": 3.520000313797511e-09,
+        "C3F6": -4.829000532780015e-10,
+        "PC": 0.0
+      }
+    },
+    "mass_residual_kg_h": -3.799999745979221e-06,
+    "purity": 0.999992027,
+    "recovery": 0.9994172533333333,
+    "makeup_kmol_h": 0.826327,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -95534.1705,
+        "REB_DUTY": 98805.5981
+      },
+      "B2": {
+        "COND_DUTY": -5763.12358,
+        "REB_DUTY": 23293.502
+      }
+    },
+    "closure": true,
+    "unit_states_pass": true,
+    "operating_signs_pass": true,
+    "product_constraints_pass": true
+  },
+  {
+    "id": "PC_2989_path_SF_0p3",
+    "case": {
+      "N1": 110.0,
+      "N2": 28.0,
+      "NF1": 66.0,
+      "NS1": 22.0,
+      "NF2": 6.0,
+      "RR1": 8.0,
+      "RR2": 0.7925,
+      "D1": 8.994827,
+      "D2": 1.8315,
+      "SF": 0.3
+    },
+    "warm_start": true,
+    "status": "radfrac_error",
+    "solver_settings": {},
+    "UOSSTAT": 1,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 0,
+      "B2": 1,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 1,
+        "UnitString": "",
+        "ValueType": 1,
+        "children": [
+          {
+            "Name": "1",
+            "Value": "** ERROR",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "2",
+            "Value": "   RADFRAC NOT CONVERGED IN 200 OUTSIDE LOOP ITERATIONS.",
+            "UnitString": "",
+            "ValueType": 3
+          }
+        ]
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "C3F8": -6.999911761340627e-11,
+        "C3F6": -6.970002353057225e-11,
+        "PC": 0.0
+      },
+      "B2": {
+        "C3F8": 0.0,
+        "C3F6": 0.0,
+        "PC": 0.0
+      },
+      "B3": {
+        "C3F8": 6.358040099999998e-70,
+        "C3F6": 6.829926099999999e-61,
+        "PC": 0.0
+      },
+      "B4": {
+        "C3F8": 0.0,
+        "C3F6": 0.0,
+        "PC": 0.0
+      },
+      "external": {
+        "C3F8": -6.999966752074815e-11,
+        "C3F6": -6.970002353057225e-11,
+        "PC": 0.0
+      }
+    },
+    "mass_residual_kg_h": 2.0000013023491192e-07,
+    "purity": 0.999992124,
+    "recovery": 0.9994173511111111,
+    "makeup_kmol_h": 0.826327,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -95534.1712,
+        "REB_DUTY": 98403.045
+      },
+      "B2": {
+        "COND_DUTY": -9191.29896,
+        "REB_DUTY": 21778.8689
+      }
+    },
+    "closure": true,
+    "unit_states_pass": false,
+    "operating_signs_pass": true,
+    "product_constraints_pass": true
+  },
+  {
+    "id": "PC_2989_path_SF_0p30_from_0p29",
+    "case": {
+      "N1": 110.0,
+      "N2": 28.0,
+      "NF1": 66.0,
+      "NS1": 22.0,
+      "NF2": 6.0,
+      "RR1": 8.0,
+      "RR2": 0.7925,
+      "D1": 8.994827,
+      "D2": 1.8315,
+      "SF": 0.3
+    },
+    "warm_start": true,
+    "status": "unit_error",
+    "solver_settings": {},
+    "UOSSTAT": 1,
+    "recycle_status": "OK",
+    "blocks": {
+      "B1": 0,
+      "B2": 1,
+      "B3": 0,
+      "B4": 0
+    },
+    "block_messages": {
+      "B1": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B2": {
+        "Name": "PER_ERROR",
+        "Value": 1,
+        "UnitString": "",
+        "ValueType": 1,
+        "children": [
+          {
+            "Name": "1",
+            "Value": "** ERROR",
+            "UnitString": "",
+            "ValueType": 3
+          },
+          {
+            "Name": "2",
+            "Value": "   RADFRAC NOT CONVERGED IN 200 OUTSIDE LOOP ITERATIONS.",
+            "UnitString": "",
+            "ValueType": 3
+          }
+        ]
+      },
+      "B3": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      },
+      "B4": {
+        "Name": "PER_ERROR",
+        "Value": 0,
+        "UnitString": "",
+        "ValueType": 1
+      }
+    },
+    "component_residuals_kmol_h": {
+      "B1": {
+        "C3F8": -6.999911761340627e-11,
+        "C3F6": -6.970002353057225e-11,
+        "PC": 0.0
+      },
+      "B2": {
+        "C3F8": 0.0,
+        "C3F6": 0.0,
+        "PC": 0.0
+      },
+      "B3": {
+        "C3F8": 6.358040099999998e-70,
+        "C3F6": 6.829926099999999e-61,
+        "PC": 0.0
+      },
+      "B4": {
+        "C3F8": 0.0,
+        "C3F6": 0.0,
+        "PC": 0.0
+      },
+      "external": {
+        "C3F8": -6.999966752074815e-11,
+        "C3F6": -6.970002353057225e-11,
+        "PC": 0.0
+      }
+    },
+    "mass_residual_kg_h": 2.0000013023491192e-07,
+    "purity": 0.999992124,
+    "recovery": 0.9994173511111111,
+    "makeup_kmol_h": 0.826327,
+    "duties_cal_s": {
+      "B1": {
+        "COND_DUTY": -95534.1712,
+        "REB_DUTY": 98403.045
+      },
+      "B2": {
+        "COND_DUTY": -9191.29896,
+        "REB_DUTY": 21778.8689
+      }
+    },
+    "closure": true,
+    "unit_states_pass": false,
+    "operating_signs_pass": true,
+    "product_constraints_pass": true
+  }
+]

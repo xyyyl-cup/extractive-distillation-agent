@@ -1,0 +1,9 @@
+; System Top
+#include "combined_atomtypes.itp"
+#include "clean_PC.itp"
+#include "clean_C3F6.itp"
+[ system ]
+Extraction_System
+[ molecules ]
+PC      300
+C3F6       10

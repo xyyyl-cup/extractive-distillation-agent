@@ -1,0 +1,34 @@
+# VMD 1.9.3 | camera transforms only; XYZ remains in Gaussian coordinates.
+# Use: vmd -e view_ball_stick.vmd, or source this file in the Tk Console.
+set source_dir [file dirname [file normalize [info script]]]
+set molid [mol new [file join $source_dir final.xyz] type xyz waitfor all autobonds off]
+set a [atomselect $molid all]
+$a set element {O H H O O O C C C H H H H}
+$a setbonds {{1 2} {0} {0} {6 8} {7 8} {8} {3 7 9 10} {4 6 11 12} {3 4 5} {6} {6} {7} {7}}
+$a delete
+display resize 2400 1800
+display projection Orthographic
+display depthcue off
+display antialias on
+display shadows on
+display ambientocclusion on
+display aoambient 0.78
+display aodirect 0.52
+axes location Off
+color Display Background white
+color change rgb gray 0.31 0.33 0.36
+color change rgb silver 0.89 0.90 0.92
+color change rgb red 0.79 0.09 0.10
+color change rgb green 0.17 0.60 0.40
+color Element C gray
+color Element H silver
+color Element O red
+color Element F green
+mol delrep 0 $molid
+mol representation CPK 0.78 0.24 32.0 32.0
+mol color Element
+mol material Opaque
+mol selection all
+mol addrep $molid
+display resetview
+molinfo $molid set {center_matrix rotate_matrix scale_matrix global_matrix} [list {{1.0000000000 0.0000000000 0.0000000000 -1.1313943503} {0.0000000000 1.0000000000 0.0000000000 0.0410418014} {0.0000000000 0.0000000000 1.0000000000 1.3535763016} {0.0000000000 0.0000000000 0.0000000000 1.0000000000}} {{0.1194516336 0.2192794556 -0.9683221714 0.0000000000} {-0.8961227926 0.4436919424 -0.0100697931 0.0000000000} {0.4274286464 0.8689384216 0.2495010455 0.0000000000} {0.0000000000 0.0000000000 0.0000000000 1.0000000000}} {{0.3020000000 0.0000000000 0.0000000000 0.0000000000} {0.0000000000 0.3020000000 0.0000000000 0.0000000000} {0.0000000000 0.0000000000 0.3020000000 0.0000000000} {0.0000000000 0.0000000000 0.0000000000 1.0000000000}} {{1.0000000000 0.0000000000 0.0000000000 0.0000000000} {0.0000000000 1.0000000000 0.0000000000 0.0000000000} {0.0000000000 0.0000000000 1.0000000000 0.0000000000} {0.0000000000 0.0000000000 0.0000000000 1.0000000000}}]
